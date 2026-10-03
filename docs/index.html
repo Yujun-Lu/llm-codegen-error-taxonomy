@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta name="description" content="Beyond pass rates: a cross-benchmark study of how large language models fail in code generation. Explore 20 error subtypes, six model configurations, and open research artifacts.">
+  <meta property="og:title" content="How LLMs Fail in Code Generation">
+  <meta property="og:description" content="Beyond pass rates. A unified, fine-grained error taxonomy across code generation benchmarks. Yujun Lu · SDDT 2026.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yujun-lu.github.io/llm-codegen-error-taxonomy/">
+  <title>How LLMs Fail in Code Generation — Yujun Lu</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23252b29'/%3E%3Cpath d='M24 16H14v32h10m16-32h10v32H40M27 24l10 16m0-16L27 40' fill='none' stroke='%23f07557' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header shell">
+    <a class="wordmark" href="#" aria-label="Project home"><span class="mark" aria-hidden="true">[<b>×</b>]</span><span>THE FAILURE<br>ATLAS</span></a>
+    <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#taxonomy">Taxonomy</a><a href="#results">Results</a><a href="#release">Resources</a></nav>
+    <a class="header-github" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> SDDT 2026 <span class="eyebrow-divider">/</span> OPEN RESEARCH</p>
+        <h1 id="hero-title">How LLMs <em>Fail</em><br>in Code<br>Generation<span class="title-period">.</span></h1>
+        <p class="subtitle">A Cross-Benchmark and Unified<br class="desktop-break"> Fine-Grained Error Taxonomy</p>
+        <p class="hero-description">Passing is only part of the story. A closer look at what fails, how it fails, and how much.</p>
+        <div class="hero-actions"><a class="button button-dark" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/raw/refs/heads/main/paper/paper.pdf">Read the paper <span aria-hidden="true">↗</span></a><a class="button button-outline" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy">Explore the code <span aria-hidden="true">↗</span></a></div>
+        <div class="byline"><strong>Yujun Lu</strong><span>Nanjing University of Information Science and Technology</span></div>
+      </div>
+      <div class="hero-figure" aria-label="Illustrative failure analysis: a generated function returns 4 when a test expects 3. This maps to the equality and inequality subtype A_EQ_NEQ.">
+        <div class="figure-topline"><span>FIG. 01 / ANATOMY OF A FAILURE</span><span class="crosshair" aria-hidden="true">+</span></div>
+        <div class="orbit-label">FROM A VERDICT<br>TO AN EXPLANATION</div>
+        <div class="code-window">
+          <div class="window-header"><span><i></i><i></i><i></i></span><span>generated_solution.py</span><span>PY</span></div>
+          <div class="code-body" aria-hidden="true"><div><span class="line-number">01</span><span class="code-purple">def</span> <span class="code-yellow">count_items</span>(items):</div><div><span class="line-number">02</span>    <span class="code-purple">return</span> <span class="code-yellow">len</span>(items) + <span class="code-coral">1</span></div><div class="empty-line"><span class="line-number">03</span></div><div class="error-line"><span class="line-number">04</span><span class="code-purple">assert</span> count_items([1, 2, 3]) == <span class="code-coral">3</span></div></div>
+          <div class="test-output"><span class="failure-icon">×</span><div><b>AssertionError</b><span>expected <strong>3</strong> &nbsp;·&nbsp; received <strong>4</strong></span></div><span class="output-label">FAILED</span></div>
+        </div>
+        <div class="trace-connector" aria-hidden="true"><span></span><b>↓</b></div>
+        <div class="diagnosis"><span class="diagnosis-index">A.01</span><div><p>EQUALITY / INEQUALITY</p><h2>A_EQ_NEQ</h2><span>Correct syntax. Incorrect semantics.</span></div><span class="diagnosis-arrow" aria-hidden="true">↗</span></div>
+        <div class="figure-caption"><span>ILLUSTRATIVE EXAMPLE</span><span>One failure. A more precise vocabulary.</span></div>
+      </div>
+    </section>
+    <div class="stat-strip shell" aria-label="Study at a glance"><div><strong>20</strong><span>fine-grained<br>error subtypes</span></div><div><strong>03</strong><span>top-level<br>error categories</span></div><div><strong>06</strong><span>model<br>configurations</span></div><div><strong>88</strong><span>archived<br>research artifacts</span></div></div>
+
+    <section class="section shell overview" id="research" aria-labelledby="overview-title">
+      <div class="section-meta"><span class="section-number">01 / THE STUDY</span><a class="text-link" href="https://doi.org/10.1145/3838938.3838941">Paper DOI <span aria-hidden="true">↗</span></a></div>
+      <div class="section-intro"><h2 id="overview-title">Beyond a<br>binary verdict.</h2><div><p class="lead">A failed solution is more than a zero on a leaderboard.</p><p>We study code generated by DeepSeek-V3.1, Kimi-K2, Qwen-Plus, and Qwen3-Coder-Plus, including thinking-mode configurations for DeepSeek and Qwen-Plus. A shared taxonomy connects evaluator evidence across HumanEval, MBPP, and BigCodeBench.</p><p>Three complementary views separate complete correctness, the semantics of a failure, and its severity.</p></div></div>
+      <div class="view-grid"><article><span class="view-index">I</span><h3>Does it pass?</h3><p>Pass@1 measures whether one generated solution passes every official test.</p><code>correctness</code></article><article><span class="view-index">II</span><h3>What goes wrong?</h3><p>Twenty subtypes describe observed failure semantics across three evaluator categories.</p><code>failure semantics</code></article><article><span class="view-index">III</span><h3>How much fails?</h3><p>Macro and micro error ratios measure the share of failed tests among failed tasks.</p><code>conditional severity</code></article></div>
+    </section>
+
+    <section class="taxonomy-section" id="taxonomy" aria-labelledby="taxonomy-title"><div class="shell section">
+      <div class="section-meta"><span class="section-number">02 / THE FAILURE ATLAS</span><span class="small-label">3 CATEGORIES → 20 SUBTYPES</span></div>
+      <div class="section-heading"><h2 id="taxonomy-title">Put a name<br>to the failure.</h2><p>Explore the vocabulary behind the verdict.<br>Choose a category to inspect its subtypes.</p></div>
+      <div class="taxonomy-layout">
+        <div class="taxonomy-sidebar"><div class="category-tabs" role="tablist" aria-label="Error categories" aria-orientation="vertical"><button class="category-tab active" id="category-a" type="button" role="tab" aria-selected="true" aria-controls="taxonomy-panel" data-category="A"><span class="category-code">A</span><span><strong>Assertion / Wrong answer</strong><small>Output violates an expectation</small></span><span class="category-count">09</span></button><button class="category-tab" id="category-v" type="button" role="tab" aria-selected="false" aria-controls="taxonomy-panel" tabindex="-1" data-category="V"><span class="category-code">V</span><span><strong>Value error</strong><small>Right type, invalid value</small></span><span class="category-count">05</span></button><button class="category-tab" id="category-t" type="button" role="tab" aria-selected="false" aria-controls="taxonomy-panel" tabindex="-1" data-category="T"><span class="category-code">T</span><span><strong>Type error</strong><small>An incompatible operation</small></span><span class="category-count">06</span></button></div><p class="taxonomy-note">Definitions and illustrative examples adapted from the paper. These describe observed failure semantics; model-generated labels are research annotations, not verified root causes.</p><a class="text-link" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/docs/taxonomy.md">Full taxonomy &amp; scope <span aria-hidden="true">↗</span></a></div>
+        <div class="taxonomy-panel" id="taxonomy-panel" role="tabpanel" aria-labelledby="category-a" tabindex="0"><noscript><p>JavaScript enables the taxonomy explorer. <a href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/docs/taxonomy.md">Read all 20 definitions and examples.</a></p></noscript></div>
+      </div>
+      <div class="scope-note"><span aria-hidden="true">↳</span><p>The taxonomy covers AssertionError / WrongAnswer, ValueError, and TypeError. Other outcomes remain outside its scope. <code>UNKNOWN</code> is a classifier fallback, not a 21st subtype.</p></div>
+    </div></section>
+
+    <section class="section shell results-section" id="results" aria-labelledby="results-title">
+      <div class="section-meta"><span class="section-number">03 / THE EVIDENCE</span><span class="small-label">PAPER TABLE 2</span></div>
+      <div class="section-heading"><h2 id="results-title">Same models.<br>Different challenges.</h2><p>Explore pass@1 across six benchmark settings.<br>Higher means more fully correct solutions.</p></div>
+      <div class="benchmark-tabs" role="tablist" aria-label="Benchmark results"><button type="button" role="tab" id="benchmark-he" aria-controls="benchmark-panel" aria-selected="true" class="active" data-benchmark="HumanEval">HumanEval</button><button type="button" role="tab" id="benchmark-he-plus" aria-controls="benchmark-panel" aria-selected="false" tabindex="-1" data-benchmark="HumanEval+">HumanEval+</button><button type="button" role="tab" id="benchmark-mbpp" aria-controls="benchmark-panel" aria-selected="false" tabindex="-1" data-benchmark="MBPP">MBPP</button><button type="button" role="tab" id="benchmark-mbpp-plus" aria-controls="benchmark-panel" aria-selected="false" tabindex="-1" data-benchmark="MBPP+">MBPP+</button><button type="button" role="tab" id="benchmark-bcb" aria-controls="benchmark-panel" aria-selected="false" tabindex="-1" data-benchmark="BCB(full)">BCB Full</button><button type="button" role="tab" id="benchmark-bcb-hard" aria-controls="benchmark-panel" aria-selected="false" tabindex="-1" data-benchmark="BCB(hard)">BCB Hard</button></div>
+      <div class="chart-panel" id="benchmark-panel" role="tabpanel" aria-labelledby="benchmark-he" tabindex="0"><div class="chart-topline"><h3 id="chart-title">HumanEval</h3><span>PASS@1 <span class="chart-unit">/ fraction of tasks</span></span></div><div id="benchmark-chart" class="benchmark-chart"><noscript><p>Enable JavaScript to explore the chart, or <a href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/results/paper_tables.json">read the source data</a>.</p></noscript></div><div class="chart-axis" aria-hidden="true"><span>0.0</span><span>0.25</span><span>0.50</span><span>0.75</span><span>1.0</span></div><div class="chart-legend"><span><i class="legend-square"></i>Model configuration</span><span><i class="legend-square accent"></i>Highest pass@1 in this setting</span></div></div>
+      <details class="data-details"><summary>View the complete results table <span aria-hidden="true">+</span></summary><div class="table-scroll"><table><caption>Paper-reported pass@1, at the paper’s three-decimal precision</caption><thead><tr><th scope="col">Model configuration</th><th scope="col">HumanEval</th><th scope="col">HumanEval+</th><th scope="col">MBPP</th><th scope="col">MBPP+</th><th scope="col">BCB Full</th><th scope="col">BCB Hard</th></tr></thead><tbody id="results-table"></tbody></table></div></details>
+      <p class="data-provenance"><strong>Historical results, not new runs.</strong> Values are transcribed from the supplied paper. HumanEval/+ and MBPP/+ each share a task set with different tests; BCB Hard is a subset of BCB Full. <a href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/results/paper_tables.json">Machine-readable data ↗</a></p>
+    </section>
+
+    <section class="findings-section" aria-labelledby="findings-title"><div class="shell section">
+      <div class="section-meta"><span class="section-number">04 / WHAT WE LEARN</span><span class="small-label">LOOK PAST THE LEADERBOARD</span></div>
+      <h2 id="findings-title">A pass rate cannot<br>tell the whole story.</h2>
+      <div class="finding-grid"><article class="finding"><span class="finding-index">01</span><h3>Semantics remain<br>the bottleneck.</h3><p>Equality and inequality failures (<code>A_EQ_NEQ</code>) are a central failure pattern across the study’s benchmarks and model configurations. Syntactically valid code can still miss the intended behavior.</p></article><article class="finding"><span class="finding-index">02</span><h3>Thinking changes<br>the shape of failure.</h3><p>On BCB Hard, DeepSeek thinking-mode pass@1 decreases from 0.304 to 0.284, while its micro error ratio among failed tasks decreases slightly from 0.514 to 0.512. Correctness and conditional severity can move differently.</p></article><article class="finding"><span class="finding-index">03</span><h3>A shared language<br>makes comparison possible.</h3><p>The same 20 subtypes connect evaluator-specific evidence. EvalPlus’s WrongAnswer and BigCodeBench’s AssertionError map to the same nine assertion subtypes.</p></article></div>
+      <div class="severity-note"><div><span class="eyebrow">READING THE ERROR RATIOS</span><h3>Failed tasks are<br>the denominator.</h3></div><div><p><strong>Macro</strong> averages each failed task’s fraction of failing tests, giving tasks equal weight.</p><p><strong>Micro</strong> pools failing tests across failed tasks, weighting tasks by their test counts.</p><p class="severity-small">Both are conditional severity measures. Neither is the overall task failure rate. See <a href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/results/paper_tables.json">Table 3 and metric definitions ↗</a>.</p></div></div>
+    </div></section>
+
+    <section class="section shell" id="release" aria-labelledby="release-title">
+      <div class="section-meta"><span class="section-number">05 / OPEN THE RESEARCH</span><span class="small-label">INSPECT · UNDERSTAND · EXTEND</span></div>
+      <div class="section-heading"><h2 id="release-title">The work behind<br>the paper. Open.</h2><p>Retained research artifacts and analysis tools.<br>Start with an offline, standard-library workflow.</p></div>
+      <div class="release-grid"><a class="resource-link" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/tree/main/results"><span class="resource-number">01</span><div><h3>Evaluation artifacts</h3><p>EvalPlus and BigCodeBench outputs, failure evidence, classifications, and a LiveCodeBench supplement.</p></div><span aria-hidden="true">↗</span></a><a class="resource-link" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/results/manifest.json"><span class="resource-number">02</span><div><h3>Traceable archive</h3><p>88 artifacts with original source locations, file sizes, and SHA-256 checksums.</p></div><span aria-hidden="true">↗</span></a><a class="resource-link" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/tree/main/scripts"><span class="resource-number">03</span><div><h3>Research tools</h3><p>Offline inspection plus benchmark-specific generation, failure extraction, and classification scripts.</p></div><span aria-hidden="true">↗</span></a><a class="resource-link" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/docs/reproducibility.md"><span class="resource-number">04</span><div><h3>Reproducibility guide</h3><p>Supported workflows, artifact coverage, dependencies, and the limits of this release.</p></div><span aria-hidden="true">↗</span></a></div>
+      <div class="quickstart"><div class="quickstart-intro"><span class="eyebrow">START EXPLORING</span><h3>Clone. Verify.<br>Inspect.</h3><p>Python 3.10+ · No API calls.<br>These commands do not execute archived model-generated code.</p></div><div class="terminal"><div class="terminal-header"><span>TERMINAL / OFFLINE QUICK START</span><button type="button" class="copy-button" data-copy="quickstart-code" aria-label="Copy quick start commands">Copy <span aria-hidden="true">⧉</span></button></div><pre id="quickstart-code"><code>git clone https://github.com/Yujun-Lu/llm-codegen-error-taxonomy.git
+cd llm-codegen-error-taxonomy
+python scripts/verify_artifacts.py
+python scripts/summarize_results.py --section paper</code></pre></div></div>
+      <p class="data-provenance">The release preserves research artifacts; it is not a complete, locked end-to-end reproduction of every experiment. LiveCodeBench generation files are supplemental and carry no inferred evaluation score.</p>
+    </section>
+
+    <section class="citation-section" id="citation" aria-labelledby="citation-title"><div class="shell section citation-layout"><div><span class="section-number">06 / BUILD ON THIS WORK</span><h2 id="citation-title">Good research<br>is a conversation.</h2><p>If the taxonomy or artifacts support your work, please cite the paper and credit the upstream benchmarks you use.</p><a class="text-link" href="https://doi.org/10.1145/3838938.3838941">10.1145/3838938.3838941 <span aria-hidden="true">↗</span></a></div><div class="citation-code"><div class="citation-header"><span>BIBTEX</span><button type="button" class="copy-button" data-copy="bibtex">Copy citation <span aria-hidden="true">⧉</span></button></div><pre id="bibtex"><code>@inproceedings{lu2026llmsfail,
+  author    = {Lu, Yujun},
+  title     = {How {LLMs} Fail in Code Generation:
+               A Cross-Benchmark and Unified
+               Fine-Grained Error Taxonomy},
+  booktitle = {The 2nd International Conference on
+               Sustainable Development and Digital Transformation},
+  series    = {SDDT 2026},
+  year      = {2026},
+  publisher = {ACM},
+  doi       = {10.1145/3838938.3838941},
+  url       = {https://doi.org/10.1145/3838938.3838941},
+  numpages  = {9}
+}</code></pre></div></div></section>
+  </main>
+  <footer class="shell site-footer"><div class="footer-top"><a class="wordmark" href="#"><span class="mark" aria-hidden="true">[<b>×</b>]</span><span>THE FAILURE<br>ATLAS</span></a><p>Understand failure.<br><strong>Build better code generation.</strong></p><a class="text-link" href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy">View on GitHub <span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><span>Yujun Lu · SDDT 2026</span><p>Original code &amp; docs: <a href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/LICENSE">MIT</a>. Paper: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="https://github.com/Yujun-Lu/llm-codegen-error-taxonomy/blob/main/THIRD_PARTY_NOTICES.md">Third-party notices</a>.</p><a href="#">Back to top ↑</a></div></footer>
+  <div id="copy-status" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
