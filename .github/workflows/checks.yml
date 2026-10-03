@@ -1,0 +1,28 @@
+name: Offline checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Compile release scripts
+        run: python -m compileall -q scripts tests
+      - name: Test offline helpers
+        run: python -m unittest discover -s tests -v
+      - name: Verify archived artifact checksums and JSON
+        run: python scripts/verify_artifacts.py
+      - name: Read paper tables and archived metrics
+        run: python scripts/summarize_results.py --format json --output outputs/summary.json

@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "provenance": {
+    "kind": "paper-reported",
+    "fresh_rerun": false,
+    "source_file": "paper/paper.pdf",
+    "title": "How LLMs Fail in Code Generation: A Cross-Benchmark and Unified Fine-Grained Error Taxonomy",
+    "author": "Yujun Lu",
+    "doi": "10.1145/3838938.3838941",
+    "conference": "SDDT 2026",
+    "conference_dates": "May 29-31, 2026",
+    "conference_location": "Xi'an, China",
+    "note": "Direct transcription of the supplied PDF's Tables 2 and 3, not recomputed from the released artifacts. Model labels are preserved from the tables."
+  },
+  "value_unit": "fraction",
+  "display_decimal_places": 3,
+  "metric_definitions": {
+    "pass_at_1": "Fraction of evaluated tasks whose single generated solution passes all official tests.",
+    "failed_tasks_F": "Tasks with at least one failing official test for the model and benchmark under analysis.",
+    "N_t": "Total number of official test methods for task t.",
+    "M_t": "Number of distinct failed test names for task t.",
+    "macro_error_ratio": "(1 / |F|) * sum(t in F, M_t / N_t)",
+    "micro_error_ratio": "sum(t in F, M_t) / sum(t in F, N_t)",
+    "error_ratio_population": "Both error ratios are computed over failed tasks F only, following the equations in Section 2.5 and the interpretation in Section 3.4.",
+    "rounding_note": "Values retain the three-decimal precision displayed in the tables. Higher-precision values mentioned in the surrounding prose are not substituted."
+  },
+  "scope_note": "LiveCodeBench is supplemental release material and is not part of these paper tables.",
+  "table_2": {
+    "table_number": 2,
+    "pdf_page": 6,
+    "caption": "The whole results of all the models on all datasets with pass@1",
+    "metric": "pass_at_1",
+    "benchmark_columns": [
+      "HumanEval",
+      "HumanEval+",
+      "MBPP",
+      "MBPP+",
+      "BCB(full)",
+      "BCB(hard)"
+    ],
+    "rows": [
+      {
+        "model": "DeepSeek-V3.1",
+        "HumanEval": 0.927,
+        "HumanEval+": 0.884,
+        "MBPP": 0.899,
+        "MBPP+": 0.741,
+        "BCB(full)": 0.499,
+        "BCB(hard)": 0.304
+      },
+      {
+        "model": "DeepSeek-V3.1(Thinking)",
+        "HumanEval": 0.951,
+        "HumanEval+": 0.902,
+        "MBPP": 0.963,
+        "MBPP+": 0.810,
+        "BCB(full)": 0.504,
+        "BCB(hard)": 0.284
+      },
+      {
+        "model": "Kimi-K2",
+        "HumanEval": 0.939,
+        "HumanEval+": 0.915,
+        "MBPP": 0.910,
+        "MBPP+": 0.751,
+        "BCB(full)": 0.474,
+        "BCB(hard)": 0.270
+      },
+      {
+        "model": "Qwen-Plus",
+        "HumanEval": 0.970,
+        "HumanEval+": 0.927,
+        "MBPP": 0.937,
+        "MBPP+": 0.802,
+        "BCB(full)": 0.468,
+        "BCB(hard)": 0.277
+      },
+      {
+        "model": "Qwen-Plus (Thinking)",
+        "HumanEval": 0.976,
+        "HumanEval+": 0.933,
+        "MBPP": 0.971,
+        "MBPP+": 0.831,
+        "BCB(full)": 0.495,
+        "BCB(hard)": 0.284
+      },
+      {
+        "model": "Qwen3-Coder-Plus",
+        "HumanEval": 0.939,
+        "HumanEval+": 0.884,
+        "MBPP": 0.923,
+        "MBPP+": 0.788,
+        "BCB(full)": 0.496,
+        "BCB(hard)": 0.297
+      }
+    ]
+  },
+  "table_3": {
+    "table_number": 3,
+    "pdf_page": 7,
+    "caption": "Results of all models of macro error ratio and micro error ratio with pass@1",
+    "column_order": [
+      "BCB-fullPass@1",
+      "BCB-fullMacro Ratio",
+      "BCB-fullMicro Ratio",
+      "BCB-hardPass@1",
+      "BCB-hardMacro Ratio",
+      "BCB-hardMicro Ratio"
+    ],
+    "rows": [
+      {
+        "model": "DeepSeek-V3.1",
+        "BCB-fullPass@1": 0.499,
+        "BCB-fullMacro Ratio": 0.558,
+        "BCB-fullMicro Ratio": 0.544,
+        "BCB-hardPass@1": 0.304,
+        "BCB-hardMacro Ratio": 0.521,
+        "BCB-hardMicro Ratio": 0.514
+      },
+      {
+        "model": "DeepSeek-V3.1(Thinking)",
+        "BCB-fullPass@1": 0.504,
+        "BCB-fullMacro Ratio": 0.560,
+        "BCB-fullMicro Ratio": 0.548,
+        "BCB-hardPass@1": 0.284,
+        "BCB-hardMacro Ratio": 0.521,
+        "BCB-hardMicro Ratio": 0.512
+      },
+      {
+        "model": "Kimi-K2",
+        "BCB-fullPass@1": 0.474,
+        "BCB-fullMacro Ratio": 0.572,
+        "BCB-fullMicro Ratio": 0.558,
+        "BCB-hardPass@1": 0.270,
+        "BCB-hardMacro Ratio": 0.538,
+        "BCB-hardMicro Ratio": 0.523
+      },
+      {
+        "model": "Qwen-Plus",
+        "BCB-fullPass@1": 0.468,
+        "BCB-fullMacro Ratio": 0.564,
+        "BCB-fullMicro Ratio": 0.550,
+        "BCB-hardPass@1": 0.277,
+        "BCB-hardMacro Ratio": 0.556,
+        "BCB-hardMicro Ratio": 0.542
+      },
+      {
+        "model": "Qwen-Plus (Thinking)",
+        "BCB-fullPass@1": 0.495,
+        "BCB-fullMacro Ratio": 0.541,
+        "BCB-fullMicro Ratio": 0.527,
+        "BCB-hardPass@1": 0.284,
+        "BCB-hardMacro Ratio": 0.538,
+        "BCB-hardMicro Ratio": 0.525
+      },
+      {
+        "model": "Qwen3-Coder-Plus",
+        "BCB-fullPass@1": 0.496,
+        "BCB-fullMacro Ratio": 0.555,
+        "BCB-fullMicro Ratio": 0.542,
+        "BCB-hardPass@1": 0.297,
+        "BCB-hardMacro Ratio": 0.544,
+        "BCB-hardMicro Ratio": 0.532
+      }
+    ]
+  }
+}

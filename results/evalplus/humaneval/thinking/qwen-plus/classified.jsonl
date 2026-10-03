@@ -1,0 +1,12 @@
+{"task_id": "HumanEval/43", "error_type": "TypeError", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "HumanEval/32", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "HumanEval/92", "error_type": "WrongAnswer", "tests": ["base"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "HumanEval/76", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/132", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/116", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/151", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/91", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/116", "error_type": "WrongAnswer", "tests": ["base"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/99", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/145", "error_type": "WrongAnswer", "tests": ["plus"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "HumanEval/145", "error_type": "WrongAnswer", "tests": ["base"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}

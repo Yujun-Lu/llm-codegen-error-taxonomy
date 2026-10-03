@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research code or its released artifacts, please cite the
+  accompanying conference paper using the preferred citation below.
+type: software
+title: "LLM Code Generation Error Taxonomy: Research Code and Artifacts"
+authors:
+  - family-names: Lu
+    given-names: Yujun
+    affiliation: "School of Software, Nanjing University of Information Science and Technology"
+license: MIT
+repository-code: "https://github.com/Yujun-Lu/llm-codegen-error-taxonomy"
+url: "https://yujun-lu.github.io/llm-codegen-error-taxonomy/"
+preferred-citation:
+  type: conference-paper
+  title: "How LLMs Fail in Code Generation: A Cross-Benchmark and Unified Fine-Grained Error Taxonomy"
+  authors:
+    - family-names: Lu
+      given-names: Yujun
+  collection-title: "The 2nd International Conference on Sustainable Development and Digital Transformation (SDDT 2026)"
+  conference:
+    name: "The 2nd International Conference on Sustainable Development and Digital Transformation"
+    date-start: "2026-05-29"
+    date-end: "2026-05-31"
+    location: "Xi'an, China"
+  publisher:
+    name: ACM
+    city: New York
+    region: NY
+    country: US
+  year: 2026
+  month: 5
+  doi: "10.1145/3838938.3838941"
+  url: "https://doi.org/10.1145/3838938.3838941"
+  isbn: "979-8-4007-2438-1"
+  notes: "9 pages. ACM ISBN imprint in the supplied PDF: 979-8-4007-2438-1/2026/05."

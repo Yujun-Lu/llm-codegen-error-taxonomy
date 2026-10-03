@@ -1,0 +1,11 @@
+{
+  "pass@1": 0.2972972972972973,
+  "model": "qwen3-coder-plus--main",
+  "split": "instruct",
+  "subset": "hard",
+  "calibrated": true,
+  "gt_pass_rate": 0.9932432432432432,
+  "failed_tasks": [
+    "BigCodeBench/590"
+  ]
+}

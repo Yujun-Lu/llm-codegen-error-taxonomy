@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
+  <title id="title">How LLMs Fail in Code Generation</title>
+  <desc id="desc">A cross-benchmark and unified fine-grained error taxonomy. SDDT 2026. Twenty error subtypes, four task sets, six model configurations.</desc>
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#dcd9d0" stroke-width="0.7"/></pattern></defs>
+  <rect width="1440" height="480" fill="#f5f3ec"/>
+  <rect x="922" width="518" height="480" fill="url(#grid)"/>
+  <path d="M922 0v480" stroke="#d2cfc6"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="58" y="52" width="10" height="10" fill="#d24d36"/>
+    <text x="82" y="62" font-size="15" font-weight="700" letter-spacing="2" fill="#655e55">SDDT 2026 / OPEN RESEARCH</text>
+    <text x="56" y="163" font-size="74" font-weight="750" letter-spacing="-3" fill="#242722">How LLMs Fail</text>
+    <text x="56" y="246" font-size="74" font-weight="750" letter-spacing="-3" fill="#242722">in Code Generation<tspan fill="#d24d36">.</tspan></text>
+    <text x="60" y="302" font-size="23" fill="#655e55">A cross-benchmark and unified fine-grained error taxonomy</text>
+    <path d="M60 342h804" stroke="#cbc7bd"/>
+    <text x="60" y="397" font-size="31" font-weight="700" fill="#242722">20<tspan font-size="17" font-weight="400" fill="#655e55"> error subtypes</tspan></text>
+    <text x="324" y="397" font-size="31" font-weight="700" fill="#242722">4<tspan font-size="17" font-weight="400" fill="#655e55"> task sets</tspan></text>
+    <text x="527" y="397" font-size="31" font-weight="700" fill="#242722">6<tspan font-size="17" font-weight="400" fill="#655e55"> model configurations</tspan></text>
+    <rect x="982" y="67" width="398" height="318" rx="8" fill="#242722"/>
+    <circle cx="1008" cy="92" r="4" fill="#d24d36"/><circle cx="1023" cy="92" r="4" fill="#d0aa63"/><circle cx="1038" cy="92" r="4" fill="#7b9680"/>
+    <text x="1008" y="141" font-family="Consolas, monospace" font-size="16" fill="#9eae9d"># Beyond the pass rate.</text>
+    <text x="1008" y="180" font-family="Consolas, monospace" font-size="17" fill="#f5f3ec">assert actual == expected</text>
+    <path d="M1008 209h344" stroke="#53594e"/>
+    <text x="1008" y="245" font-family="Consolas, monospace" font-size="17" fill="#f28b74">AssertionError</text>
+    <text x="1008" y="279" font-family="Consolas, monospace" font-size="15" fill="#c2c6ba">→ A_EQ_NEQ</text>
+    <text x="1008" y="333" font-size="15" fill="#c2c6ba">What fails. How it fails. How much.</text>
+    <text x="984" y="429" font-size="14" font-weight="700" letter-spacing="2" fill="#655e55">YUJUN LU / RESEARCH ARTIFACT</text>
+  </g>
+</svg>

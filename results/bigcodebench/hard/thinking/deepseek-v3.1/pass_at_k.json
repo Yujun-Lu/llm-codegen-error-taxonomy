@@ -1,0 +1,11 @@
+{
+  "pass@1": 0.28378378378378377,
+  "model": "deepseek-v3.1",
+  "split": "instruct",
+  "subset": "hard",
+  "calibrated": true,
+  "gt_pass_rate": 0.9932432432432432,
+  "failed_tasks": [
+    "BigCodeBench/590"
+  ]
+}

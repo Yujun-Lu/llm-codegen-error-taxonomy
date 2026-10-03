@@ -1,0 +1,3 @@
+# Optional EvalPlus generation/reporting environment; use Python 3.10 or 3.11.
+-r requirements.txt
+evalplus>=0.3,<0.4

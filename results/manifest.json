@@ -1,0 +1,714 @@
+{
+  "description": "Canonical main-experiment artifacts copied without modifications. Sources are relative to the original local project. Paper-reported tables are distinct from archived metrics.",
+  "artifacts": [
+    {
+      "path": "results/bigcodebench/full/non-thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/deepseek/细分/classified.jsonl"
+      ],
+      "sha256": "154fc0bb5597db6b297d4725048834d39fe6b5c75d9296017aa513545e12d019",
+      "bytes": 168779
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/deepseek/deepseek-v3.1--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "6a4b10d0bbd80e67067e1cb5f62a129d2e19aca0320d411af6f85c444ca8e053",
+      "bytes": 2796351
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/deepseek/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "18b49f1e1d5faeea3ba9573af49c731090344e40ec53753b08dbbca015db8e6c",
+      "bytes": 197419
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/deepseek-v3.1/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/deepseek/deepseek-v3.1--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "5b07184b6b889ba2940edde11adebea5b54108c0409e34f5b1febe042806fee0",
+      "bytes": 293
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/kimi-k2/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/kimi/细分/classified.jsonl"
+      ],
+      "sha256": "f9058b02cc3cc6be666f98c15cd505baaf5f3893f66951f2803b36b40a91a52f",
+      "bytes": 173665
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/kimi-k2/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/kimi/Moonshot-Kimi-K2-Instruct--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "1e1bea7e572d5833d6b899c8d74fba463c669951ec2279d474ae786b1441484c",
+      "bytes": 2779927
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/kimi-k2/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/kimi/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "fe85af86facd525f803bcd5f49e053e7db550be250a882e9055e083f9debe01d",
+      "bytes": 205462
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/kimi-k2/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/kimi/Moonshot-Kimi-K2-Instruct--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "21b69b6d2a068246deb80fecc12667372e5ec17fc7585288e7f64fe8bc9ada30",
+      "bytes": 305
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen-plus/细分/classified.jsonl"
+      ],
+      "sha256": "1fb64efadaa000a781dddf86eb773df9504bd38d888e69a8aa6458108026b189",
+      "bytes": 186710
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen-plus/qwen-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "e09c7b19679a8a1b57efbf68a834f2018553d41de954a10a22f9ca8d6d683f64",
+      "bytes": 3065785
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "21ce45fb3ccaba93437913853be5f55322d2e210774656ed95c7c4b6d1294dd0",
+      "bytes": 220450
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen-plus/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen-plus/qwen-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "a7de7cdfae950e9a781cff70e58f95fecde6d19d866a0deb3845da22a2ce1cdd",
+      "bytes": 264
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen3-coder-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen3-coder-plus/细分/classified.jsonl"
+      ],
+      "sha256": "a8970ca5f685ea033a3d58363ff76c34884b5971ea71ef377f1ded821fe5d256",
+      "bytes": 169567
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen3-coder-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen3-coder-plus/qwen3-coder-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "54e06188f2b6c17fd612d79cfaabbe756825dda0229b975b5bca657a34120bd2",
+      "bytes": 2838432
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen3-coder-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen3-coder-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "22ba0f60ac09b4aac666ef3bdc86fd77e81d8afca5804b9e6b88359ea9573dbb",
+      "bytes": 200319
+    },
+    {
+      "path": "results/bigcodebench/full/non-thinking/qwen3-coder-plus/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full/qwen3-coder-plus/qwen3-coder-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "13373d98edb3eeaf5c7edd4f6adaf0371f33bd58c15db86be61079def6033809",
+      "bytes": 295
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/deepseek/normal/细分/classified.jsonl"
+      ],
+      "sha256": "e8ad05d9ac1f938996e3184bf03d38ff4507a14c7238504f911ddb3adf070748",
+      "bytes": 164107
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/deepseek/normal/deepseek-v3.1--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "a431a0b990a11122e0c8a90dea39e472d5021a40cf7f9fccb1bd3ec2c9eed472",
+      "bytes": 1934120
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/deepseek/normal/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "6da7d0f7c673ca1c234c45ba332b7cc2409cfa3066368a5bfd6c782dcfeb0d85",
+      "bytes": 192517
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/deepseek-v3.1/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/deepseek/normal/deepseek-v3.1--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "594f0a015919b33b85e8dbf5bc8d0e1a173d59d0df2acde94be51459a9ee91bb",
+      "bytes": 286
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/qwen-plus/细分/classified.jsonl"
+      ],
+      "sha256": "38414fd0187a5f24f2588e9607f10b638ae39280534ef52702dd2d7a13065d0b",
+      "bytes": 161995
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/qwen-plus/qwen-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "ac5dffd762ed047488437206db60aefbfa4303cee47eab5aa6f90c554423ecf8",
+      "bytes": 1788744
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/qwen-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "b9eb8c92ff60cd27b177e097acdeb4b8f1d9d78af18c59613f6ed93194c4a059",
+      "bytes": 187192
+    },
+    {
+      "path": "results/bigcodebench/full/thinking/qwen-plus/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/full-thinking/qwen-plus/qwen-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "915e15515baf0fa0eb08c1c1a64fb17c622e346577a950add5c1d2129e29d8b3",
+      "bytes": 307
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/deepseekv3-1/normal/细分/classified.jsonl"
+      ],
+      "sha256": "d8a6a594f6f36230d9f9a250b11c99c3a7ede0d82edc5a728c44bc657196d84c",
+      "bytes": 25577
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/deepseekv3-1/normal/deepseek-v3.1--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "9f7c3d795e53c8fc84416135386d71aad774d83c7bc46d66e0a826504ed61945",
+      "bytes": 506247
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/deepseekv3-1/normal/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "bac89f30d7dae38d2b48a48cfbbaf7477b4b1037f36e80d9b50232a1d3104968",
+      "bytes": 28693
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/deepseek-v3.1/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/deepseekv3-1/normal/deepseek-v3.1--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "66c3a96cf5e1207ab75c9bfb199d79b7329dbfa4b805196808c64131d1ea13ca",
+      "bytes": 220
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/kimi-k2/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/kimi/细分/classified.jsonl"
+      ],
+      "sha256": "516acb3231187ea3529b4443be865c4c98293fd815a5d22ff7ce051ef126c963",
+      "bytes": 25790
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/kimi-k2/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/kimi/Moonshot-Kimi-K2-Instruct--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "317153e5aaca462f8d35b22361cd5cb9df6adc70cb46b5b51c52698d884630c4",
+      "bytes": 467223
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/kimi-k2/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/kimi/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "fd0b4ee1938fb2900561442366e525814c806128eef069088cff9ace6d925348",
+      "bytes": 29521
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/kimi-k2/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/kimi/Moonshot-Kimi-K2-Instruct--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "6fcaf41f730ebe0abdff21548bcfa0cc5b4448386eaf271733c43d1a1b3c20be",
+      "bytes": 231
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen-plus/细分/classified.jsonl"
+      ],
+      "sha256": "0833e031d9c1e280e66e9229437cc97dd0ff19b79354f3d59bc716ed30fd3e4f",
+      "bytes": 27508
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen-plus/qwen-plus--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "6dd3ad83e7d207c67d2c0dff3e258f4d774da4b028542c0d72381fa5f603ccca",
+      "bytes": 542986
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "11766f1f8897e7790604979843fa50cf5370f99fcb1293203ca508138b7e2e21",
+      "bytes": 32124
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen-plus/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen-plus/qwen-plus--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "d0cc3d60ffe0b813356da44587ffbd6dd0fd434d5ecbfcf7af12c52ed964260b",
+      "bytes": 216
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen3-coder-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen3-coder-plus/细分/classified.jsonl"
+      ],
+      "sha256": "42decdc8dedda64185fb7f3fe8b5f51078284806032c1de10d72bfba4e748b84",
+      "bytes": 26768
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen3-coder-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen3-coder-plus/qwen3-coder-plus--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "04f36bc976dccbca78b5f0a4bcc45f770b170244d22791f97cb34e872dec14bd",
+      "bytes": 507133
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen3-coder-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen3-coder-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "ff9f9759fccd42a5e343f0bf45ccf85afa7614563b11b33d1497b4af21226c01",
+      "bytes": 29560
+    },
+    {
+      "path": "results/bigcodebench/hard/non-thinking/qwen3-coder-plus/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard/qwen3-coder-plus/qwen3-coder-plus--main--bigcodebench-hard-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "bcbf6c3c48a60f8dbf51dee40279f7e48ea68d24d7de499cd4febfe3689ba8b0",
+      "bytes": 222
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/deepseek/normal/细分/classified.jsonl"
+      ],
+      "sha256": "8eafc47b77abf962d38626dbb5c942fccfcecf3dff51cd4f9a4fb149225c4aed",
+      "bytes": 25061
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/deepseek/normal/deepseek-v3.1--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "ee46daace112332751d7be8c986be989542498d1f11acfdccd80f3700b2695e3",
+      "bytes": 364400
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/deepseek/normal/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "8e272478d9ea7b48a826dd910cc40c6ff11f9d9c55ed80d5940957df1c532e86",
+      "bytes": 28228
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/deepseek-v3.1/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/deepseek/normal/deepseek-v3.1--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json",
+        "Experiment/BigCodeBench/hard-thinking/deepseek/normal/重复试验/deepseek-v3.1--bigcodebench-instruct--openai-0-1-sanitized_calibrated_raw-sanitized-calibrated_pass_at_k.json"
+      ],
+      "sha256": "59e57336180885f30c47e39d34f5caa7ed09e4fc373a0e0fc4369b153ef8c734",
+      "bytes": 214
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/qwen-plus/细分/classified.jsonl"
+      ],
+      "sha256": "65017861ab48dac58a743dc5e8232e60374d8ae0665a3078ad282b892b3809c7",
+      "bytes": 28436
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/qwen-plus/qwen-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_eval_results.json"
+      ],
+      "sha256": "a4e0ac8703db00597afcc8ce5cdeb2e0476216960863859226bf64352717851f",
+      "bytes": 378348
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/qwen-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "58793f78dae00de2f5bc4153580636d69c0a5c98422a707309822f07c8f8ebd8",
+      "bytes": 32012
+    },
+    {
+      "path": "results/bigcodebench/hard/thinking/qwen-plus/pass_at_k.json",
+      "source_candidates": [
+        "Experiment/BigCodeBench/hard-thinking/qwen-plus/qwen-plus--main--bigcodebench-instruct--openai-0-1-sanitized_calibrated_pass_at_k.json"
+      ],
+      "sha256": "c4630df3f80f6829eac1e34c5891c8024e80008c38c0db5514fad6ee445ae42c",
+      "bytes": 210
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/deepseekv3-1/细分/classified.jsonl"
+      ],
+      "sha256": "9e3e56f22725bc2009e48a334292347f51c4086d8e5987b2d29bcc894ce8f6e9",
+      "bytes": 3863
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/deepseekv3-1/deepseek-v3.1_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "2cf4f672446771948240248ed1ece71c2f8d111c307049dd22057d193ef03b26",
+      "bytes": 167899
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/deepseekv3-1/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "d1ad08bf3c23f02e038c45d759136b1919e83a48bd8989466bfa8981295b2acb",
+      "bytes": 47916
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/kimi-k2/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/kimi/细分/classified.jsonl"
+      ],
+      "sha256": "74d84848897d4f3d0dcfd0b7d041bf1e1602792af619bd723b4e061c30f1652c",
+      "bytes": 3283
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/kimi-k2/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/kimi/Moonshot-Kimi-K2-Instruct_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "7ff5409d587f8fcd0c8cd765c5547b7346fc57e5aa913508396ba3803dc5f670",
+      "bytes": 142780
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/kimi-k2/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/kimi/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "cae322985e2e4de247b9d699588a477ad55149fe3763783fa4d934888e4e101e",
+      "bytes": 39075
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/qwen-plus/normal/细分/classified.jsonl"
+      ],
+      "sha256": "5d07de3d424f02c5189b245313d58a893215cf26b136792fe61570065b298605",
+      "bytes": 1936
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/qwen-plus/normal/qwen-plus_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "fcdee9993ceabc5311022c824a566f946a66bc746b68d0487a4bc38381701bb1",
+      "bytes": 177002
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/qwen-plus/normal/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "dc142e49ff80b814d1290da42e80e62baea3e47c1e7712900bc069462c7083b0",
+      "bytes": 33034
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/qwen3-coder-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/qwen3-coder-plus/细分/classified.jsonl"
+      ],
+      "sha256": "8c752cab8c265eb3520ac95c6603fc4caab7dfd83d092dfdad2e048a6466d1c4",
+      "bytes": 3720
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/qwen3-coder-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/qwen3-coder-plus/qwen3-coder-plus_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "c0db5f5d5e134d7d4eef005d020125e08f5c6979ef61f5e386ba9b3724047099",
+      "bytes": 172459
+    },
+    {
+      "path": "results/evalplus/humaneval/non-thinking/qwen3-coder-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/humaneval/qwen3-coder-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "ac0b32d2fa8949aa295b1d523573fe765d79c17b0687ac259462fc9690c66e63",
+      "bytes": 52045
+    },
+    {
+      "path": "results/evalplus/humaneval/thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/humaneval/deepseek/细分/classified.jsonl"
+      ],
+      "sha256": "0623009c4a3203d1beaaa6b2d43cdf81cabc33e2a26a38bdecac7420a02b98b1",
+      "bytes": 2835
+    },
+    {
+      "path": "results/evalplus/humaneval/thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/humaneval/deepseek/deepseek-v3.1_thinking_chat_temp_0.0_eval_results.json"
+      ],
+      "sha256": "64fca31d8cdf2e7be595b3117d2e258da43bb45cd46fb608b2de5c7924b937b2",
+      "bytes": 148894
+    },
+    {
+      "path": "results/evalplus/humaneval/thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/humaneval/deepseek/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "8f0d7779bd52991d87261ddce06b346a9469fccc8e5d5549347d6164ccdc469e",
+      "bytes": 34176
+    },
+    {
+      "path": "results/evalplus/humaneval/thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/humaneval/qwen-plus/细分/classified.jsonl"
+      ],
+      "sha256": "4e8448b950b76f5dfba2e7d6b827913cbb096b95f35dff98834c0541b2c9b448",
+      "bytes": 1791
+    },
+    {
+      "path": "results/evalplus/humaneval/thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/humaneval/qwen-plus/qwen-plus_thinking_chat_temp_0.0-sanitized-completion_eval_results.json"
+      ],
+      "sha256": "dfcbe7d27b6fbf230d7e9a8f7d11effe66121e169b78a769089b8ab6fa7e81a3",
+      "bytes": 148454
+    },
+    {
+      "path": "results/evalplus/humaneval/thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/humaneval/qwen-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "deb30c455d3112a2c1f72b1e73bb749fa2e55c993910f93fa546afa587e084f8",
+      "bytes": 22526
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/deepseek/细分/classified.jsonl"
+      ],
+      "sha256": "6f6ed0a855eca21cb24e6afff9d68b80ab863d99a1867174348819c9bf68aa17",
+      "bytes": 17536
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/deepseek/deepseek-v3.1_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "52063c4dada054d0635c56d20eedc2f0b41daa0262432c0fedb0376a3a34632b",
+      "bytes": 297811
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/deepseek/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "ca4275a3d6cd6f329d116214cde6a4b8a96cc5de0c805854414476e15fdb2b2b",
+      "bytes": 163935
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/kimi-k2/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/kimi/细分/classified.jsonl"
+      ],
+      "sha256": "3dbc349f7de0c5c843ffdb1dd81b094c59d5a9c5699fd13efbb0799161a6c9a0",
+      "bytes": 17919
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/kimi-k2/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/kimi/Moonshot-Kimi-K2-Instruct_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "2823ffc19821a4294b93a53deaa1695e2cad8de14ae6b6936e5bf01f9c088962",
+      "bytes": 246034
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/kimi-k2/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/kimi/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "ffd8e78b50bf063e327d9c8f7ac9c0ff445659df1b90538329266bc943cc585f",
+      "bytes": 144258
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/qwen-plus/细分/classified.jsonl"
+      ],
+      "sha256": "a3dc54c991911b0542073aaad40337165dfd9bf119bcde6c0419d733308706a2",
+      "bytes": 13171
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/qwen-plus/qwen-plus_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "d27514fd3c0902ee89df62e73359c26b5d80c25bd41202cae9776eecef3544f1",
+      "bytes": 296890
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/qwen-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "c9fdd2526c037a2b364838b42ca76543b7c88e63a9a790e4be78eaa02a2aad50",
+      "bytes": 125345
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/qwen3-coder-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/qwen3-coder-plus/细分/classified.jsonl"
+      ],
+      "sha256": "d1b8d3509c3c8d34aed029ea28392a85e6b05162c52213e59489e05ad2f94429",
+      "bytes": 14412
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/qwen3-coder-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/qwen3-coder-plus/qwen3-coder-plus_openai_temp_0.0_eval_results.json"
+      ],
+      "sha256": "cbc659f04b51a1600b0e95059f71ff80bd1871276097ed20b9d4315e85338d09",
+      "bytes": 290280
+    },
+    {
+      "path": "results/evalplus/mbpp/non-thinking/qwen3-coder-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/normal/evalplus_results/mbpp/qwen3-coder-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "3759c32f3368e7eaec44715642775d54cdf1e9bc17197f78d7edc865d420bea7",
+      "bytes": 135866
+    },
+    {
+      "path": "results/evalplus/mbpp/thinking/deepseek-v3.1/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/mbpp/deepseek/细分/classified.jsonl"
+      ],
+      "sha256": "88bdc13825c4fdadf0eb8f5cf52f6cb6bbdd087e9889e58deeb2bd76e153eafe",
+      "bytes": 12152
+    },
+    {
+      "path": "results/evalplus/mbpp/thinking/deepseek-v3.1/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/mbpp/deepseek/deepseek-v3.1_thinking_chat_temp_0.0_eval_results.json"
+      ],
+      "sha256": "12e18d5d27c04658e991db07b7a0a2ef3f97838d14fef24919b5a67dc9a25ff7",
+      "bytes": 191566
+    },
+    {
+      "path": "results/evalplus/mbpp/thinking/deepseek-v3.1/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/mbpp/deepseek/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "d0ebcdd32d344bbe0e6a5c80c1cc1d6f8d9b224248f8d0da59f980a9d7e02f18",
+      "bytes": 81545
+    },
+    {
+      "path": "results/evalplus/mbpp/thinking/qwen-plus/classified.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/mbpp/qwen-plus/细分/classified.jsonl"
+      ],
+      "sha256": "bb329f4264f3dfd94e6a34827745718fcdbe32427a59cc9fd66e85b8262d94a9",
+      "bytes": 10413
+    },
+    {
+      "path": "results/evalplus/mbpp/thinking/qwen-plus/eval_results.json",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/mbpp/qwen-plus/qwen-plus_thinking_chat_temp_0.0_eval_results.json"
+      ],
+      "sha256": "fc4718c95b9d8f0975013eeaa02f5c35ab5ee1f8b984201d0c6622a247997018",
+      "bytes": 182388
+    },
+    {
+      "path": "results/evalplus/mbpp/thinking/qwen-plus/minimal_errors.jsonl",
+      "source_candidates": [
+        "Experiment/Eval+/深度思考/evalplus_results/mbpp/qwen-plus/细分/minimal_errors.jsonl"
+      ],
+      "sha256": "15f241f7c1f8ddab80ef48751dcd2d28e8742689864f405e8ccb7397f9a69b34",
+      "bytes": 69069
+    },
+    {
+      "path": "results/livecodebench/release_v6/deepseek-v3.1/samples.json",
+      "source_candidates": [
+        "Experiment/LiveCodeBench/LiveCodeBench/deepseek_lcb.json",
+        "Experiment/LiveCodeBench/results/deepseek/deepseek_lcb.json"
+      ],
+      "sha256": "003723f3a255aeeec81c5d2c615c7b60500b36c31e6c4f4847ebddeb4aa9fba9",
+      "bytes": 1230769
+    },
+    {
+      "path": "results/livecodebench/release_v6/kimi-k2/samples.json",
+      "source_candidates": [
+        "Experiment/LiveCodeBench/LiveCodeBench/kimi_lcb.json",
+        "Experiment/LiveCodeBench/results/kimi/kimi_lcb.json"
+      ],
+      "sha256": "1740c5c892695f2b354b718027cc9ae7a78933c908ad667345efe22faad0a6a2",
+      "bytes": 3550892
+    },
+    {
+      "path": "results/livecodebench/release_v6/qwen-plus/samples.json",
+      "source_candidates": [
+        "Experiment/LiveCodeBench/LiveCodeBench/qwen-plus_lcb_v6.json",
+        "Experiment/LiveCodeBench/results/qwen-plus/qwen-plus_lcb_v6.json"
+      ],
+      "sha256": "824e0475acd9271aacff03f269db3d594932a4eb27f333a8dad9338a20916703",
+      "bytes": 2588467
+    },
+    {
+      "path": "results/livecodebench/release_v6/qwen3-coder-plus/samples.json",
+      "source_candidates": [
+        "Experiment/LiveCodeBench/LiveCodeBench/qwen3-coder-plus_lcb_v6.json",
+        "Experiment/LiveCodeBench/results/qwen3-coder-plus/qwen3-coder-plus_lcb_v6.json"
+      ],
+      "sha256": "8be454c518b2d643f0aae99c05510ece964477bbf67c01e3e6b32dac4fd3b52c",
+      "bytes": 2547644
+    }
+  ]
+}

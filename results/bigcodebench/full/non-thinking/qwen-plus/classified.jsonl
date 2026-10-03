@@ -1,0 +1,1056 @@
+{"task_id": "BigCodeBench/6", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/10", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/6", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/6", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/8", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5", "test_range_limit"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/17", "error_type": "AssertionError", "tests": ["test_process_found_restarts_process"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/17", "error_type": "AssertionError", "tests": ["test_process_terminates_and_restarts_multiple_instances"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/17", "error_type": "AssertionError", "tests": ["test_process_not_found_starts_process"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/32", "error_type": "AssertionError", "tests": ["test_h1_tag_found"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/32", "error_type": "AssertionError", "tests": ["test_multiple_matching_tags"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/32", "error_type": "AssertionError", "tests": ["test_invalid_url_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/26", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/32", "error_type": "AssertionError", "tests": ["test_empty_tag"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/32", "error_type": "AssertionError", "tests": ["test_malformed_html", "test_title_tag_found"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/29", "error_type": "AssertionError", "tests": ["test_output_is_string_and_valid_base64"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/29", "error_type": "AssertionError", "tests": ["test_with_mocked_scaler"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/55", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/39", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/39", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/49", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/55", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/50", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/41", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/51", "error_type": "ValueError", "tests": ["test_case_1", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/51", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/50", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/51", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/45", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/31", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/51", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_MATH_DOMAIN"}]}
+{"task_id": "BigCodeBench/61", "error_type": "ValueError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/40", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/36", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/35", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/65", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/62", "error_type": "ValueError", "tests": ["test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/63", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/65", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/37", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/66", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/37", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/37", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/15", "error_type": "AssertionError", "tests": ["test_command_failure_with_specific_exit_code"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/64", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/74", "error_type": "ValueError", "tests": ["test_connection_error"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/37", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/74", "error_type": "ValueError", "tests": ["test_nonexistent_host"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/46", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_6", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/76", "error_type": "AssertionError", "tests": ["test_raise_error"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/70", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/77", "error_type": "AssertionError", "tests": ["test_successful_login"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/74", "error_type": "AssertionError", "tests": ["test_valid_host"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/76", "error_type": "ValueError", "tests": ["test_session_key_in_cookies"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/75", "error_type": "TypeError", "tests": ["test_custom_days_range", "test_with_custom_fruits_and_days"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/75", "error_type": "AssertionError", "tests": ["test_reproducibility_with_seed"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/71", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/75", "error_type": "AssertionError", "tests": ["test_error_on_non_empty_dataframe"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/71", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/71", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/78", "error_type": "TypeError", "tests": ["test_attachment_filename", "test_content_type", "test_csv_file_content", "test_response_status_code", "test_response_type"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/71", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/79", "error_type": "AssertionError", "tests": ["test_zip_file_content"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/81", "error_type": "AssertionError", "tests": ["test_api_endpoint_configuration"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/81", "error_type": "AssertionError", "tests": ["test_api_endpoint_status_code"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/81", "error_type": "AssertionError", "tests": ["test_external_api_call"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/83", "error_type": "AssertionError", "tests": ["test_send_mail_functionality", "test_send_mail_route"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/81", "error_type": "AssertionError", "tests": ["test_data_endpoint_response"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/84", "error_type": "AssertionError", "tests": ["test_new_custom_parameters"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/95", "error_type": "ValueError", "tests": ["test_dataframe_structure", "test_reproducibility", "test_values"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/90", "error_type": "TypeError", "tests": ["test_correct_neighbors", "test_correct_number_of_neighbors", "test_large_k_value", "test_zero_k_value"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/91", "error_type": "AssertionError", "tests": ["test_plot_axes"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/85", "error_type": "AssertionError", "tests": ["test_plot_attributes"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/89", "error_type": "AssertionError", "tests": ["test_return_type"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/94", "error_type": "TypeError", "tests": ["test_mean_approximation"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/94", "error_type": "AssertionError", "tests": ["test_samples_type"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/103", "error_type": "ValueError", "tests": ["test_basic_functionality", "test_data_on_plot", "test_plot_labels_and_title", "test_value_consistency"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/100", "error_type": "AssertionError", "tests": ["test_value"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/101", "error_type": "ValueError", "tests": ["test_basic_functionality", "test_heatmap_features", "test_heatmap_values", "test_plot_appearance"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/94", "error_type": "TypeError", "tests": ["test_samples_length"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/93", "error_type": "AssertionError", "tests": ["test_values"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/104", "error_type": "ValueError", "tests": ["test_custom_groups", "test_plot_labels", "test_return_type"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/113", "error_type": "AssertionError", "tests": ["test_dictionary_length_update"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/109", "error_type": "AssertionError", "tests": ["test_plot_title_and_labels"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/111", "error_type": "TypeError", "tests": ["test_plot_title", "test_return_type1", "test_return_value"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/113", "error_type": "AssertionError", "tests": ["test_new_keys_added"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/125", "error_type": "AssertionError", "tests": ["test_return_type"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/115", "error_type": "TypeError", "tests": ["test_dictionary_keys", "test_entropy_calculation", "test_mode_calculation", "test_multiple_modes", "test_return_type", "test_single_element_list"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/117", "error_type": "AssertionError", "tests": ["test_with_seed"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/122", "error_type": "AssertionError", "tests": ["test_list_modification"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/120", "error_type": "AssertionError", "tests": ["test_series_length"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/123", "error_type": "AssertionError", "tests": ["test_list_modification"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/120", "error_type": "AssertionError", "tests": ["test_reproducibility_with_seed"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/122", "error_type": "AssertionError", "tests": ["test_mock_random_array"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/131", "error_type": "ValueError", "tests": ["test_various_hex_formats"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/108", "error_type": "AssertionError", "tests": ["test_insufficient_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/108", "error_type": "AssertionError", "tests": ["test_additive_model"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/129", "error_type": "ValueError", "tests": ["test_return_type", "test_return_type_with_complex_data"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/121", "error_type": "AssertionError", "tests": ["test_plot_title"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/121", "error_type": "AssertionError", "tests": ["test_output_types"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/128", "error_type": "AssertionError", "tests": ["test_walk_length"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/128", "error_type": "AssertionError", "tests": ["test_plot_shown"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/132", "error_type": "AssertionError", "tests": ["test_alternative_format", "test_valid_hex_string"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/126", "error_type": "AssertionError", "tests": ["test_data_frame_structure"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/128", "error_type": "TypeError", "tests": ["test_step_direction"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/126", "error_type": "TypeError", "tests": ["test_custom_animals", "test_positive_counts"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/126", "error_type": "AssertionError", "tests": ["test_default_animals"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/124", "error_type": "AssertionError", "tests": ["test_plot_title"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/135", "error_type": "AssertionError", "tests": ["test_plot_title_and_labels"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/144", "error_type": "AssertionError", "tests": ["test_full_range_iteration"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/124", "error_type": "AssertionError", "tests": ["test_output_types"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/144", "error_type": "AssertionError", "tests": ["test_active_server"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/150", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/150", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/145", "error_type": "AssertionError", "tests": ["test_csv_writer_usage"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/150", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/150", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/146", "error_type": "AssertionError", "tests": ["test_ip_range_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/152", "error_type": "AssertionError", "tests": ["test_deterministic_grades"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/145", "error_type": "AssertionError", "tests": ["test_csv_writing"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/146", "error_type": "AssertionError", "tests": ["test_successful_ping"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/154", "error_type": "AssertionError", "tests": ["test_re_search_called_with_suffix"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/152", "error_type": "AssertionError", "tests": ["test_dataframe_columns"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/154", "error_type": "AssertionError", "tests": ["test_dictionary_content"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/155", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/147", "error_type": "AssertionError", "tests": ["test_open_port"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/171", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/158", "error_type": "TypeError", "tests": ["test_gzip_file_opened_with_correct_path", "test_json_compression", "test_response_read_called", "test_return_type_is_string"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/171", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/171", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/171", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/173", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/174", "error_type": "TypeError", "tests": ["test_non_dataframe_input"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/178", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/173", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/161", "error_type": "AssertionError", "tests": ["test_log_to_csv_content"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/156", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/173", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/167", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/173", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/167", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/167", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/163", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/167", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/183", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/177", "error_type": "AssertionError", "tests": ["test_word_frequencies"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/183", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/177", "error_type": "AssertionError", "tests": ["test_case_sensitive_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/183", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/177", "error_type": "ValueError", "tests": ["test_empty_dataframe"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/183", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/183", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/185", "error_type": "TypeError", "tests": ["test_coordinate_ranges", "test_custom_cities", "test_default_parameters", "test_return_types"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/185", "error_type": "AssertionError", "tests": ["test_invalid_dic"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/186", "error_type": "TypeError", "tests": ["test_distance_dict_structure", "test_distances_calculation", "test_large_distance_calculation", "test_marker_addition", "test_multiple_locations", "test_return_type", "test_single_location"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/179", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/179", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/187", "error_type": "AssertionError", "tests": ["test_default_parameters"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/189", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/169", "error_type": "AssertionError", "tests": ["test_return_types"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/157", "error_type": "AssertionError", "tests": ["test_input_validation"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/169", "error_type": "TypeError", "tests": ["test_subplot_titles"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/186", "error_type": "TypeError", "tests": ["test_negative_lat_lon"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/157", "error_type": "AssertionError", "tests": ["test_correlation_calculation"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/190", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/188", "error_type": "AssertionError", "tests": ["test_different_locations"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/188", "error_type": "AssertionError", "tests": ["test_map_initialization"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/188", "error_type": "AssertionError", "tests": ["test_initial_centering"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/184", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/191", "error_type": "AssertionError", "tests": ["test_large_number_of_customers"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/191", "error_type": "AssertionError", "tests": ["test_no_customer"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/191", "error_type": "AssertionError", "tests": ["test_typical_case"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/191", "error_type": "AssertionError", "tests": ["test_random_animal_selection", "test_sales_content"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/192", "error_type": "AssertionError", "tests": ["test_recepient"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/168", "error_type": "AssertionError", "tests": ["test_data_values"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/192", "error_type": "AssertionError", "tests": ["test_no_names"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/192", "error_type": "AssertionError", "tests": ["test_f225_subject"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/168", "error_type": "AssertionError", "tests": ["test_default_parameters"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/168", "error_type": "AssertionError", "tests": ["test_no_labels_provided"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/199", "error_type": "ValueError", "tests": ["test_custom_cities_and_timezones", "test_reproducibility_with_seed", "test_valid_input"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/168", "error_type": "ValueError", "tests": ["test_custom_parameters"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/202", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/202", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/195", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/202", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/203", "error_type": "AssertionError", "tests": ["test_f225", "test_f225_subject", "test_login"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/200", "error_type": "AssertionError", "tests": ["test_count_greater_than_or_equal_value"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/204", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/204", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/204", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/204", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/208", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/208", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/208", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/213", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/208", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/216", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/196", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/219", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/219", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/225", "error_type": "ValueError", "tests": ["test_columns_not_in_dataframe", "test_histogram_plotting"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/219", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/222", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/219", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/219", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/221", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/221", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/221", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/224", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/221", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/224", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/223", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/223", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/226", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/224", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/217", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/226", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/229", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/234", "error_type": "ValueError", "tests": ["test_correct_data_handling", "test_empty_dataframe", "test_linear_regression", "test_missing_columns", "test_plotting_elements"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/232", "error_type": "ValueError", "tests": ["test_case_empty", "test_case_regular", "test_case_tie_categories", "test_case_unique_customers", "test_case_with_duplicates"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/229", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/237", "error_type": "ValueError", "tests": ["test_case_1", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/237", "error_type": "ValueError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/237", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/214", "error_type": "AssertionError", "tests": ["test_image_size_and_type"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/231", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/231", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/231", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/231", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/231", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/235", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/244", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/235", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/242", "error_type": "AssertionError", "tests": ["test_valid_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/241", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/241", "error_type": "ValueError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/246", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/248", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/245", "error_type": "TypeError", "tests": ["test_custom_range", "test_default_parameters", "test_large_dataset", "test_single_value_range", "test_small_dataset"], "classifications": [{"message_index": 0, "subclass_id": "T_ARGCOUNT"}]}
+{"task_id": "BigCodeBench/250", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/250", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/250", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/250", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/251", "error_type": "ValueError", "tests": ["test_empty_data"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/252", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/250", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/254", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/254", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/256", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/254", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/256", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/255", "error_type": "AssertionError", "tests": ["test_rlabel_position"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/254", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/255", "error_type": "ValueError", "tests": ["test_invalid_index"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/257", "error_type": "AssertionError", "tests": ["test_positive_turns"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/259", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/259", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/264", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/267", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/259", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/258", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/259", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/271", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/271", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/279", "error_type": "AssertionError", "tests": ["test_card_uniqueness"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/270", "error_type": "AssertionError", "tests": ["test_case_sensitivity"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/274", "error_type": "AssertionError", "tests": ["test_invalid_content_type"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/269", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_ARGCOUNT"}]}
+{"task_id": "BigCodeBench/181", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/181", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/281", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/181", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/283", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/181", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/181", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/285", "error_type": "AssertionError", "tests": ["test_incorrect_form_id"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/288", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/285", "error_type": "AssertionError", "tests": ["test_invalid_url"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/290", "error_type": "AssertionError", "tests": ["test_case_insensitivity"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/284", "error_type": "AssertionError", "tests": ["test_extracted_links", "test_html_content_with_nested_elements", "test_https_and_http_urls", "test_links_with_different_attributes"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/284", "error_type": "AssertionError", "tests": ["test_invalid_url"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/281", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/294", "error_type": "AssertionError", "tests": ["test_example_dataframe"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/284", "error_type": "AssertionError", "tests": ["test_multiple_links_extraction"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/284", "error_type": "AssertionError", "tests": ["test_performance_with_large_html_content"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/284", "error_type": "AssertionError", "tests": ["test_relative_urls"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/301", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/301", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/299", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/301", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/301", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/305", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/301", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/291", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/300", "error_type": "AssertionError", "tests": ["test_empty_dataframe"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/307", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/305", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/300", "error_type": "TypeError", "tests": ["test_large_dataset", "test_typical_data"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/307", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/309", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/313", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/309", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/313", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/320", "error_type": "AssertionError", "tests": ["test_non_zero_exit_code"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/320", "error_type": "AssertionError", "tests": ["test_valid_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/313", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/315", "error_type": "AssertionError", "tests": ["test_generic_exception_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/315", "error_type": "AssertionError", "tests": ["test_empty_directory", "test_successful_email_send"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/315", "error_type": "AssertionError", "tests": ["test_failed_email_send"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/320", "error_type": "AssertionError", "tests": ["test_random_file_selection"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/315", "error_type": "AssertionError", "tests": ["test_invalid_directory"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/314", "error_type": "AssertionError", "tests": ["test_ssl_handshake_error_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/317", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/311", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/322", "error_type": "AssertionError", "tests": ["test_backup_of_large_file", "test_successful_execution"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/324", "error_type": "AssertionError", "tests": ["test_process_still_running"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/324", "error_type": "AssertionError", "tests": ["test_multiple_processes_with_different_exit_codes"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/317", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/326", "error_type": "AssertionError", "tests": ["test_exception_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/324", "error_type": "AssertionError", "tests": ["test_valid_files"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/324", "error_type": "AssertionError", "tests": ["test_valid_directory_and_files"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/317", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/326", "error_type": "AssertionError", "tests": ["test_multiple_bat_files_mixed_results"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/326", "error_type": "AssertionError", "tests": ["test_single_bat_file_failure"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/326", "error_type": "AssertionError", "tests": ["test_single_bat_file_success"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/327", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/327", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/327", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/329", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/327", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/327", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/329", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/329", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/329", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/339", "error_type": "AssertionError", "tests": ["test_complex_data_structure"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/329", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/339", "error_type": "AssertionError", "tests": ["test_empty_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/339", "error_type": "AssertionError", "tests": ["test_known_data_signature"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/339", "error_type": "AssertionError", "tests": ["test_consistent_hash_with_same_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/339", "error_type": "AssertionError", "tests": ["test_different_data_different_signatures"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/340", "error_type": "AssertionError", "tests": ["test_known_data_hash_correctness"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/351", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/336", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/336", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/336", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/344", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/336", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/323", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/336", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/332", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/332", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/356", "error_type": "ValueError", "tests": ["test_empty_arrays"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/356", "error_type": "AssertionError", "tests": ["test_phase_calculation"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/354", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/354", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/354", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/354", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/365", "error_type": "TypeError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/341", "error_type": "AssertionError", "tests": ["test_categorical_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/365", "error_type": "AssertionError", "tests": ["test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/374", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/379", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/360", "error_type": "AssertionError", "tests": ["test_correct_mean_and_std_values"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/378", "error_type": "AssertionError", "tests": ["test_normal_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/386", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/380", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/402", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/386", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/376", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/402", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/402", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/360", "error_type": "AssertionError", "tests": ["test_value"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/402", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/402", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/395", "error_type": "AssertionError", "tests": ["test_mixed_content_file", "test_normal_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/391", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/400", "error_type": "AssertionError", "tests": ["test_nested_directories"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/400", "error_type": "AssertionError", "tests": ["test_with_target_string"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/385", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/385", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/385", "error_type": "AssertionError", "tests": ["test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/387", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/387", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/387", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/399", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/385", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/387", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/372", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/411", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/411", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/433", "error_type": "AssertionError", "tests": ["test_invalid_base64"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/415", "error_type": "AssertionError", "tests": ["test_non_string_unicode_values"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/411", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/411", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/411", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/433", "error_type": "AssertionError", "tests": ["test_signature_case_sensitivity"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/435", "error_type": "AssertionError", "tests": ["test_case_5", "test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/424", "error_type": "AssertionError", "tests": ["test_normal_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/440", "error_type": "AssertionError", "tests": ["test_case_10"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/440", "error_type": "AssertionError", "tests": ["test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/440", "error_type": "ValueError", "tests": ["test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/440", "error_type": "ValueError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/440", "error_type": "ValueError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/440", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/429", "error_type": "ValueError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/440", "error_type": "ValueError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/429", "error_type": "ValueError", "tests": ["test_case_2", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/429", "error_type": "ValueError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/350", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/429", "error_type": "ValueError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/350", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/429", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/441", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/348", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/348", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/348", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/220", "error_type": "AssertionError", "tests": ["test_mainloop_invocation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/348", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/454", "error_type": "AssertionError", "tests": ["test_move_specified_extension_files"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/468", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/457", "error_type": "AssertionError", "tests": ["test_case_10"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/457", "error_type": "AssertionError", "tests": ["test_case_12"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/468", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/458", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_3", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/457", "error_type": "TypeError", "tests": ["test_case_11"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/457", "error_type": "AssertionError", "tests": ["test_case_3", "test_case_4", "test_case_5", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/442", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/470", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/471", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_10", "test_case_2", "test_case_3", "test_case_4", "test_case_5", "test_case_6", "test_case_7", "test_case_8", "test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/443", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/479", "error_type": "AssertionError", "tests": ["test_case_11"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/478", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/478", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/481", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/469", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_4", "test_case_5", "test_case_6", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/473", "error_type": "ValueError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/473", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/483", "error_type": "AssertionError", "tests": ["test_case_6", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/475", "error_type": "ValueError", "tests": ["test_histogram_values", "test_valid_data"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/476", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/425", "error_type": "AssertionError", "tests": ["test_histogram_labels"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/477", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/425", "error_type": "AssertionError", "tests": ["test_normal_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/488", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/488", "error_type": "ValueError", "tests": ["test_case_5", "test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/485", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5", "test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/474", "error_type": "AssertionError", "tests": ["test_case_10", "test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/486", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/492", "error_type": "TypeError", "tests": ["test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/491", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/486", "error_type": "AssertionError", "tests": ["test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/419", "error_type": "ValueError", "tests": ["test_axes_labels_and_title", "test_input_dimension_flexibility", "test_model_and_axes_types", "test_model_loss", "test_model_optimizer", "test_model_output_shape"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/492", "error_type": "ValueError", "tests": ["test_case_1", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/491", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/493", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/493", "error_type": "AssertionError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/459", "error_type": "ValueError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/493", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/459", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/459", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/494", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/494", "error_type": "AssertionError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/506", "error_type": "ValueError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/503", "error_type": "AssertionError", "tests": ["test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/501", "error_type": "ValueError", "tests": ["test_custom_sheet_name", "test_empty_json", "test_file_content", "test_valid_json"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/506", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/494", "error_type": "AssertionError", "tests": ["test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/506", "error_type": "ValueError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/506", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/507", "error_type": "ValueError", "tests": ["test_case_1", "test_case_4", "test_case_5", "test_case_6", "test_case_7", "test_case_8", "test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/509", "error_type": "ValueError", "tests": ["test_empty_files"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/511", "error_type": "ValueError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/511", "error_type": "ValueError", "tests": ["test_case_1", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/509", "error_type": "AssertionError", "tests": ["test_difference_report"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/516", "error_type": "ValueError", "tests": ["test_case_2", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/511", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/511", "error_type": "ValueError", "tests": ["test_case_3", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/518", "error_type": "ValueError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/518", "error_type": "ValueError", "tests": ["test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/521", "error_type": "AssertionError", "tests": ["test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/460", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/421", "error_type": "AssertionError", "tests": ["test_invalid_url"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/523", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/523", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/524", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/460", "error_type": "ValueError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/524", "error_type": "AssertionError", "tests": ["test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/460", "error_type": "ValueError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/524", "error_type": "AssertionError", "tests": ["test_case_8", "test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/526", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/460", "error_type": "ValueError", "tests": ["test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/526", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/528", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/528", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/528", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/535", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/533", "error_type": "AssertionError", "tests": ["test_base_conversion_and_hashing"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/541", "error_type": "AssertionError", "tests": ["test_module_path_in_sys_path"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/532", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/541", "error_type": "AssertionError", "tests": ["test_no_duplicates_in_sys_path"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/540", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/532", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/544", "error_type": "AssertionError", "tests": ["test_default_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/544", "error_type": "AssertionError", "tests": ["test_valid_custom_hex_string"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/544", "error_type": "AssertionError", "tests": ["test_boundary_hex_value"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/548", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/544", "error_type": "AssertionError", "tests": ["test_zero_value"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/548", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/548", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/548", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/545", "error_type": "AssertionError", "tests": ["test_custom_hex_keys"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/548", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/545", "error_type": "AssertionError", "tests": ["test_default_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/449", "error_type": "AssertionError", "tests": ["test_case_13", "test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/449", "error_type": "AssertionError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/553", "error_type": "TypeError", "tests": ["test_both_lists_empty", "test_empty_b_list"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/531", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_4", "test_case_5", "test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/531", "error_type": "ValueError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_MATH_DOMAIN"}]}
+{"task_id": "BigCodeBench/449", "error_type": "ValueError", "tests": ["test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/560", "error_type": "ValueError", "tests": ["test_basic_functionality", "test_full_year_data", "test_partial_year_data"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/570", "error_type": "AssertionError", "tests": ["test_function_annotations"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/564", "error_type": "AssertionError", "tests": ["test_nonexistent_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/565", "error_type": "AssertionError", "tests": ["test_dll_name_returned"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/428", "error_type": "ValueError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/571", "error_type": "ValueError", "tests": ["test_io_error"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/567", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/565", "error_type": "AssertionError", "tests": ["test_md5_hash_printed"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/567", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/565", "error_type": "AssertionError", "tests": ["test_sha256_hash_printed"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/567", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/567", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/575", "error_type": "AssertionError", "tests": ["test_single_element_list"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/575", "error_type": "ValueError", "tests": ["test_shuffle_and_roll_operation"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/576", "error_type": "AssertionError", "tests": ["test_series_length"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/575", "error_type": "AssertionError", "tests": ["test_varying_data_types"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/575", "error_type": "AssertionError", "tests": ["test_with_predefined_elements"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/567", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/576", "error_type": "AssertionError", "tests": ["test_with_repeated_elements"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/558", "error_type": "ValueError", "tests": ["test_empty_lists"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/581", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/558", "error_type": "AssertionError", "tests": ["test_unequal_length_lists"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/594", "error_type": "AssertionError", "tests": ["test_task_func_checks_backup_directory_exists"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/597", "error_type": "TypeError", "tests": ["test_case_insensitivity"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/594", "error_type": "AssertionError", "tests": ["test_backup_file_creation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/592", "error_type": "AssertionError", "tests": ["test_file_path_return"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/607", "error_type": "ValueError", "tests": ["test_no_row_removal"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/592", "error_type": "AssertionError", "tests": ["test_csv_file_creation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/607", "error_type": "AssertionError", "tests": ["test_empty_dataframe"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/594", "error_type": "TypeError", "tests": ["test_task_func_copies_to_backup_directory"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/593", "error_type": "AssertionError", "tests": ["test_dataframe_content"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/613", "error_type": "TypeError", "tests": ["test_clipping_negative_scores", "test_clipping_positive_scores", "test_goals_with_penalties"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/612", "error_type": "ValueError", "tests": ["test_empty_goals_and_penalties", "test_no_penalties", "test_penalties_greater_than_goals", "test_some_teams_missing"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/593", "error_type": "AssertionError", "tests": ["test_empty_dataframe_on_zero_hours"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/616", "error_type": "TypeError", "tests": ["test_custom_penalty_cost", "test_negative_input", "test_positive_outcomes", "test_single_team", "test_zero_goals_penalties"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/613", "error_type": "ValueError", "tests": ["test_goals_no_penalties", "test_no_goals_no_penalties"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/617", "error_type": "TypeError", "tests": ["test_dataframe_structure", "test_no_teams", "test_positive_goals_penalties", "test_randomness_control", "test_zero_goals_penalties"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/606", "error_type": "AssertionError", "tests": ["test_case_3", "test_uniform_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/601", "error_type": "AssertionError", "tests": ["test_no_word_column"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/593", "error_type": "AssertionError", "tests": ["test_directory_creation"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/611", "error_type": "ValueError", "tests": ["test_basic_functionality"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/593", "error_type": "AssertionError", "tests": ["test_plot_generation"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/608", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/611", "error_type": "AssertionError", "tests": ["test_more_plots_than_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/601", "error_type": "TypeError", "tests": ["test_boxplot_called", "test_return_type", "test_word_filtering"], "classifications": [{"message_index": 0, "subclass_id": "T_ARGCOUNT"}]}
+{"task_id": "BigCodeBench/614", "error_type": "ValueError", "tests": ["test_data_integrity", "test_empty_input", "test_invalid_keys", "test_plot_type", "test_visualization_output"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/618", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/582", "error_type": "AssertionError", "tests": ["test_histogram_pdf_overlay"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/610", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/627", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/620", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/620", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/600", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/620", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/620", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/626", "error_type": "ValueError", "tests": ["test_case_1", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/620", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/626", "error_type": "ValueError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/626", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/626", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/638", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/638", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/633", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/636", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/633", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/633", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/633", "error_type": "AssertionError", "tests": ["test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/637", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/636", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_MATH_DOMAIN"}]}
+{"task_id": "BigCodeBench/637", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/637", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/634", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/637", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/642", "error_type": "AssertionError", "tests": ["test_hash_correctness"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/637", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/643", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/642", "error_type": "AssertionError", "tests": ["test_matching_file"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/649", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/647", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/648", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/648", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/647", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/648", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/647", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/648", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/647", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/635", "error_type": "AssertionError", "tests": ["test_duplicate_words"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/651", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/635", "error_type": "AssertionError", "tests": ["test_ngram_range"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/635", "error_type": "AssertionError", "tests": ["test_simple_text"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/654", "error_type": "TypeError", "tests": ["test_functionality", "test_return_types", "test_target_value_found"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/461", "error_type": "AssertionError", "tests": ["test_case_3", "test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/652", "error_type": "AssertionError", "tests": ["test_empty_array"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/655", "error_type": "ValueError", "tests": ["test_single_text"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/652", "error_type": "AssertionError", "tests": ["test_single_match"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/661", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/668", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/668", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/655", "error_type": "ValueError", "tests": ["test_all_stopwords", "test_empty_texts"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/668", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/663", "error_type": "AssertionError", "tests": ["test_no_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/663", "error_type": "TypeError", "tests": ["test_non_numeric_data"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/664", "error_type": "AssertionError", "tests": ["test_plot_labels"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/663", "error_type": "AssertionError", "tests": ["test_plot_labels"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/671", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/664", "error_type": "AssertionError", "tests": ["test_monthly_ticks"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/680", "error_type": "ValueError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/687", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/664", "error_type": "AssertionError", "tests": ["test_plot_lines"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/687", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/708", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/704", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/708", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/708", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/691", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/708", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/697", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/708", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/698", "error_type": "ValueError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/711", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/717", "error_type": "TypeError", "tests": ["test_multiple_paths"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/716", "error_type": "ValueError", "tests": ["test_default_json"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/716", "error_type": "ValueError", "tests": ["test_json_update_1"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/715", "error_type": "AssertionError", "tests": ["test_switch_to_default_python_version"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/716", "error_type": "ValueError", "tests": ["test_json_update_2"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/715", "error_type": "AssertionError", "tests": ["test_switch_to_python_3_6"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/715", "error_type": "AssertionError", "tests": ["test_switch_to_python_3_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/730", "error_type": "AssertionError", "tests": ["test_file_cleanup"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/723", "error_type": "AssertionError", "tests": ["test_invalid_url", "test_no_table"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/715", "error_type": "AssertionError", "tests": ["test_switch_to_python_2_7"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/715", "error_type": "AssertionError", "tests": ["test_switch_to_python_3_9"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/727", "error_type": "AssertionError", "tests": ["test_string_with_numbers", "test_string_with_special_characters"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/733", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/723", "error_type": "AssertionError", "tests": ["test_overwrite_existing_csv"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/733", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_5", "test_case_6", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/733", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/733", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/723", "error_type": "AssertionError", "tests": ["test_correct_scraping"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/726", "error_type": "AssertionError", "tests": ["test_duplicate_words"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/739", "error_type": "AssertionError", "tests": ["test_no_seed", "test_randomness"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/739", "error_type": "AssertionError", "tests": ["test_specific_hex_keys"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/741", "error_type": "AssertionError", "tests": ["test_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/755", "error_type": "AssertionError", "tests": ["test_files_with_multiple_extensions"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/746", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/741", "error_type": "AssertionError", "tests": ["test_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/741", "error_type": "AssertionError", "tests": ["test_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/741", "error_type": "AssertionError", "tests": ["test_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/755", "error_type": "AssertionError", "tests": ["test_files_without_extension"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/755", "error_type": "AssertionError", "tests": ["test_single_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/755", "error_type": "AssertionError", "tests": ["test_multiple_files"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/754", "error_type": "AssertionError", "tests": ["test_case_non_numeric"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/752", "error_type": "AssertionError", "tests": ["test_case_test_size"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/754", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/754", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/754", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/754", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/762", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/765", "error_type": "AssertionError", "tests": ["test_files_with_content"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/765", "error_type": "TypeError", "tests": ["test_files_with_no_content", "test_mixed_case"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/778", "error_type": "AssertionError", "tests": ["test_wrong_keys"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/775", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/775", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/775", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/775", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/779", "error_type": "AssertionError", "tests": ["test_backup_and_clean", "test_large_files_backup"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/775", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/779", "error_type": "AssertionError", "tests": ["test_backup_failure"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/779", "error_type": "AssertionError", "tests": ["test_cleanup_failure"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/781", "error_type": "AssertionError", "tests": ["test_empty_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/780", "error_type": "ValueError", "tests": ["test_different_timezones_across_categories"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/781", "error_type": "AssertionError", "tests": ["test_file_properties"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/781", "error_type": "AssertionError", "tests": ["test_permission_error"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/793", "error_type": "AssertionError", "tests": ["test_default_input"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/793", "error_type": "AssertionError", "tests": ["test_custom_list_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/798", "error_type": "AssertionError", "tests": ["test_erroneous_backup_content"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/798", "error_type": "AssertionError", "tests": ["test_directory_does_not_exist"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/798", "error_type": "AssertionError", "tests": ["test_successful_rollback"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/796", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/796", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/801", "error_type": "AssertionError", "tests": ["test_multiple_columns"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/793", "error_type": "AssertionError", "tests": ["test_three_elements_list"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/802", "error_type": "AssertionError", "tests": ["test_positive_dimension"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/802", "error_type": "AssertionError", "tests": ["test_large_dimension"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/802", "error_type": "AssertionError", "tests": ["test_dimension_one"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/800", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/802", "error_type": "AssertionError", "tests": ["test_zero_dimension"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/804", "error_type": "AssertionError", "tests": ["test_empty_metrics"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/801", "error_type": "AssertionError", "tests": ["test_single_entry"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/804", "error_type": "AssertionError", "tests": ["test_non_dictionary_metrics", "test_non_string_filename"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/788", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/799", "error_type": "AssertionError", "tests": ["test_all_identical_rows", "test_single_row_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/789", "error_type": "AssertionError", "tests": ["test_normal_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/799", "error_type": "AssertionError", "tests": ["test_case_1", "test_no_common_rows"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/799", "error_type": "ValueError", "tests": ["test_case_2", "test_large_number_of_rows"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/788", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/799", "error_type": "ValueError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/812", "error_type": "AssertionError", "tests": ["test_no_matches"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/799", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/799", "error_type": "ValueError", "tests": ["test_single_column_input"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/814", "error_type": "AssertionError", "tests": ["test_no_files_to_move"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/814", "error_type": "AssertionError", "tests": ["test_invalid_files_not_moved"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/814", "error_type": "AssertionError", "tests": ["test_pattern_specificity"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/814", "error_type": "AssertionError", "tests": ["test_valid_files_moved"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/814", "error_type": "AssertionError", "tests": ["test_target_directory_creation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/811", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/813", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_4", "test_edge_case_3", "test_edge_case_4", "test_edge_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/808", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/806", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/806", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/806", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/806", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/808", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/818", "error_type": "AssertionError", "tests": ["test_empty_string"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/818", "error_type": "AssertionError", "tests": ["test_string_with_whitespaces"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/818", "error_type": "AssertionError", "tests": ["test_string_with_special_characters"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/835", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/836", "error_type": "AssertionError", "tests": ["test_file_with_multiple_targets"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/785", "error_type": "TypeError", "tests": ["test_archiving_in_nonexistent_directory"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/836", "error_type": "AssertionError", "tests": ["test_file_with_target"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/831", "error_type": "AssertionError", "tests": ["test_rng"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/785", "error_type": "AssertionError", "tests": ["test_no_matching_files"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/843", "error_type": "AssertionError", "tests": ["test_sentence_length"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/847", "error_type": "AssertionError", "tests": ["test_empty_string"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/845", "error_type": "AssertionError", "tests": ["test_case_empty_strings"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/583", "error_type": "AssertionError", "tests": ["test_key_size"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/847", "error_type": "AssertionError", "tests": ["test_special_characters"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/847", "error_type": "AssertionError", "tests": ["test_single_line"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/847", "error_type": "AssertionError", "tests": ["test_random_filenames"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/851", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/851", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/851", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/857", "error_type": "AssertionError", "tests": ["test_exception_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/849", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/849", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/849", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/864", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/867", "error_type": "AssertionError", "tests": ["test_with_common_punctuation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/849", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/821", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/871", "error_type": "AssertionError", "tests": ["test_function_with_non_numeric_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/872", "error_type": "AssertionError", "tests": ["test_uneven_tuples"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/875", "error_type": "AssertionError", "tests": ["test_random_fill"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/821", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/882", "error_type": "ValueError", "tests": ["test_non_existent_column"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/881", "error_type": "ValueError", "tests": ["test_custom_column"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/886", "error_type": "ValueError", "tests": ["test_all_same_age", "test_correct_processing", "test_duplicate_names_different_ages", "test_empty_data", "test_no_common_age"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/885", "error_type": "AssertionError", "tests": ["test_empty_dataframe", "test_missing_columns", "test_no_rows_matching_criteria", "test_non_numeric_data"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/893", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/892", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/893", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/893", "error_type": "AssertionError", "tests": ["test_case_3", "test_case_4", "test_case_invalid_format"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/892", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/892", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/893", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/898", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/897", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/897", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/894", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/898", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/896", "error_type": "AssertionError", "tests": ["test_specific_distribution"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/894", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/898", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/894", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/895", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/895", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/894", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/895", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/895", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/899", "error_type": "AssertionError", "tests": ["test_output_type"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/908", "error_type": "AssertionError", "tests": ["test_plot_titles"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/913", "error_type": "AssertionError", "tests": ["test_mixed_types"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/909", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/900", "error_type": "AssertionError", "tests": ["test_all_keys_missing"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/904", "error_type": "AssertionError", "tests": ["test_custom_keys"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/914", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/916", "error_type": "ValueError", "tests": ["test_case_1", "test_empty_df", "test_invalid_column", "test_large_values_df", "test_single_value_df"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/900", "error_type": "AssertionError", "tests": ["test_empty_list"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/917", "error_type": "ValueError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/921", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_UNHASHABLE"}]}
+{"task_id": "BigCodeBench/417", "error_type": "AssertionError", "tests": ["test_model_weights"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/924", "error_type": "ValueError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/924", "error_type": "ValueError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/926", "error_type": "ValueError", "tests": ["test_invalid_column_name"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/930", "error_type": "ValueError", "tests": ["test_empty_string"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/931", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/929", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/929", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/931", "error_type": "AssertionError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/929", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/929", "error_type": "AssertionError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/934", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/934", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/934", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/938", "error_type": "AssertionError", "tests": ["test_empty_and_none"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/939", "error_type": "AssertionError", "tests": ["test_alphanumeric_names", "test_mixed_characters", "test_special_characters_removal"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/934", "error_type": "AssertionError", "tests": ["test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/939", "error_type": "AssertionError", "tests": ["test_only_special_characters"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/933", "error_type": "AssertionError", "tests": ["test_non_consecutive_letters"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/935", "error_type": "ValueError", "tests": ["test_empty_string"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/933", "error_type": "AssertionError", "tests": ["test_empty_string"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/938", "error_type": "AssertionError", "tests": ["test_clean_text_and_calculate_length"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/933", "error_type": "AssertionError", "tests": ["test_basic_word"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/933", "error_type": "AssertionError", "tests": ["test_single_letter"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/933", "error_type": "AssertionError", "tests": ["test_long_word"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/933", "error_type": "AssertionError", "tests": ["test_repeated_letters"], "classifications": [{"message_index": 0, "subclass_id": "A_TYPE_CHECK"}]}
+{"task_id": "BigCodeBench/933", "error_type": "AssertionError", "tests": ["test_word_with_uppercase_should_fail"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/936", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/940", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/940", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/941", "error_type": "ValueError", "tests": ["test_basic_forecast", "test_monthly_forecast", "test_quarterly_forecast"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/942", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/940", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/940", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/946", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/946", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/947", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/951", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/946", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/951", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/951", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/945", "error_type": "AssertionError", "tests": ["test_forecasted_values_increasing"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/951", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/944", "error_type": "AssertionError", "tests": ["test_default_parameters"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/952", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/943", "error_type": "ValueError", "tests": ["test_insufficient_periods_error"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/964", "error_type": "AssertionError", "tests": ["test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/957", "error_type": "AssertionError", "tests": ["test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/963", "error_type": "AssertionError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/963", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/957", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/966", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/955", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/955", "error_type": "AssertionError", "tests": ["test_case_1", "test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/955", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/972", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/955", "error_type": "AssertionError", "tests": ["test_case_6"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/955", "error_type": "AssertionError", "tests": ["test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/972", "error_type": "ValueError", "tests": ["test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/973", "error_type": "AssertionError", "tests": ["test_path_with_multiple_delimiters"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/973", "error_type": "AssertionError", "tests": ["test_path_with_trailing_delimiter"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/970", "error_type": "AssertionError", "tests": ["test_increasing_array"], "classifications": [{"message_index": 0, "subclass_id": "A_FLOAT_APPROX"}]}
+{"task_id": "BigCodeBench/978", "error_type": "AssertionError", "tests": ["test_with_5x1_array"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/991", "error_type": "AssertionError", "tests": ["test_correct_length"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/980", "error_type": "AssertionError", "tests": ["test_case_7"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/991", "error_type": "AssertionError", "tests": ["test_correct_type"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/988", "error_type": "AssertionError", "tests": ["test_deduplicate_predicates", "test_multiple_predicates"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/991", "error_type": "AssertionError", "tests": ["test_non_empty_string_positive_length"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/977", "error_type": "AssertionError", "tests": ["test_custom_features"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/988", "error_type": "AssertionError", "tests": ["test_invalid_predicates"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/988", "error_type": "TypeError", "tests": ["test_dir_is_dir", "test_dir_is_not_file", "test_file_is_file", "test_file_is_not_dir", "test_has_no_special_char", "test_has_numbers", "test_has_special_char"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/985", "error_type": "ValueError", "tests": ["test_case_1", "test_case_4", "test_case_5", "test_case_6", "test_case_8", "test_case_9"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/977", "error_type": "AssertionError", "tests": ["test_default_features"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/998", "error_type": "AssertionError", "tests": ["test_valid_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/992", "error_type": "AssertionError", "tests": ["test_basic_path_insertion"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/992", "error_type": "AssertionError", "tests": ["test_database_creation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/986", "error_type": "ValueError", "tests": ["test_correct_data_extraction"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1003", "error_type": "AssertionError", "tests": ["test_valid_xml"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1000", "error_type": "AssertionError", "tests": ["test_sample_1", "test_sample_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/996", "error_type": "AssertionError", "tests": ["test_invalid_url"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/1010", "error_type": "TypeError", "tests": ["test_image_mode", "test_image_properties", "test_valid_image_url"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/1006", "error_type": "AssertionError", "tests": ["test_download_invald_zip_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/996", "error_type": "AssertionError", "tests": ["test_scrape_title_page_1", "test_scrape_title_page_2", "test_very_long_title"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/996", "error_type": "AssertionError", "tests": ["test_page_without_title"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1009", "error_type": "AssertionError", "tests": ["test_empty_xml"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/996", "error_type": "AssertionError", "tests": ["test_append_to_existing_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1009", "error_type": "AssertionError", "tests": ["test_large_xml"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1009", "error_type": "AssertionError", "tests": ["test_nested_xml"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/984", "error_type": "TypeError", "tests": ["test_with_categorical_data"], "classifications": [{"message_index": 0, "subclass_id": "T_UNHASHABLE"}]}
+{"task_id": "BigCodeBench/1009", "error_type": "AssertionError", "tests": ["test_simple_xml", "test_xml_with_attributes"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/979", "error_type": "AssertionError", "tests": ["test_case_8"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/1008", "error_type": "TypeError", "tests": ["test_empty_table", "test_successful_scrape", "test_table_not_found"], "classifications": [{"message_index": 0, "subclass_id": "T_BAD_ARGTYPE"}]}
+{"task_id": "BigCodeBench/1001", "error_type": "AssertionError", "tests": ["test_title_format"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1001", "error_type": "AssertionError", "tests": ["test_xlabel_format"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1001", "error_type": "AssertionError", "tests": ["test_ylabel_format"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1004", "error_type": "ValueError", "tests": ["test_empty_file"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/993", "error_type": "AssertionError", "tests": ["test_empty_string"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1005", "error_type": "AssertionError", "tests": ["test_extraction_path_already_exists"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1005", "error_type": "AssertionError", "tests": ["test_successful_download_and_extraction_sample_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1005", "error_type": "AssertionError", "tests": ["test_file_already_exists_at_save_path"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1005", "error_type": "AssertionError", "tests": ["test_successful_download_and_extraction_sample_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1013", "error_type": "AssertionError", "tests": ["test_duplicate_links", "test_external_links", "test_single_link"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1013", "error_type": "AssertionError", "tests": ["test_multiple_links"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1016", "error_type": "ValueError", "tests": ["test_histogram_bins"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1016", "error_type": "ValueError", "tests": ["test_valid_image_url"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1016", "error_type": "ValueError", "tests": ["test_ioerror_image_processing"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/1021", "error_type": "AssertionError", "tests": ["test_long_string"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1016", "error_type": "ValueError", "tests": ["test_histogram_data_range"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/1021", "error_type": "AssertionError", "tests": ["test_string_numbers"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1021", "error_type": "AssertionError", "tests": ["test_string_with_space"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1021", "error_type": "AssertionError", "tests": ["test_string_with_numbers"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1019", "error_type": "AssertionError", "tests": ["test_ocr_and_comment_extraction_fail"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1021", "error_type": "AssertionError", "tests": ["test_verify_hash_incorrect"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1022", "error_type": "AssertionError", "tests": ["test_valid_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1021", "error_type": "AssertionError", "tests": ["test_verify_hash_none"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1023", "error_type": "AssertionError", "tests": ["test_high_correlation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1019", "error_type": "AssertionError", "tests": ["test_ocr_fails_comment_extraction_succeeds"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1023", "error_type": "AssertionError", "tests": ["test_negative_correlation"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1024", "error_type": "TypeError", "tests": ["test_dataframe_creation", "test_distribution_plot"], "classifications": [{"message_index": 0, "subclass_id": "T_UNHASHABLE"}]}
+{"task_id": "BigCodeBench/1021", "error_type": "AssertionError", "tests": ["test_empty_string"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1012", "error_type": "AssertionError", "tests": ["test_successful_download_and_extraction"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1012", "error_type": "AssertionError", "tests": ["test_invalid_url", "test_non_200_http_response"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1024", "error_type": "TypeError", "tests": ["test_dataframe_without_none"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/1038", "error_type": "AssertionError", "tests": ["test_response_format"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1025", "error_type": "AssertionError", "tests": ["test_all_none_data"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1025", "error_type": "AssertionError", "tests": ["test_with_missing_values"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1039", "error_type": "AssertionError", "tests": ["test_exception_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1039", "error_type": "AssertionError", "tests": ["test_task_func_empty_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1039", "error_type": "AssertionError", "tests": ["test_task_func_large_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1039", "error_type": "AssertionError", "tests": ["test_file_found"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/1025", "error_type": "ValueError", "tests": ["test_empty_data"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/1030", "error_type": "AssertionError", "tests": ["test_combinations"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1030", "error_type": "AssertionError", "tests": ["test_shape"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1034", "error_type": "AssertionError", "tests": ["test_sales_above_threshold"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1039", "error_type": "AssertionError", "tests": ["test_file_not_found"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/1030", "error_type": "AssertionError", "tests": ["test_columns"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1041", "error_type": "AssertionError", "tests": ["test_bad_request", "test_empty_request", "test_invalid_method_request"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1041", "error_type": "AssertionError", "tests": ["test_file_not_found"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1033", "error_type": "AssertionError", "tests": ["test_dataframe_columns"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1046", "error_type": "TypeError", "tests": ["test_date_range"], "classifications": [{"message_index": 0, "subclass_id": "T_UNSUPPORTED_OPERAND"}]}
+{"task_id": "BigCodeBench/1041", "error_type": "AssertionError", "tests": ["test_internal_server_error"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1055", "error_type": "AssertionError", "tests": ["test_single_color_and_state"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1046", "error_type": "AssertionError", "tests": ["test_leap_year"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1036", "error_type": "AssertionError", "tests": ["test_empty_series", "test_identical_series", "test_intersection_exists", "test_no_intersection", "test_partial_intersection"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1053", "error_type": "AssertionError", "tests": ["test_display_plot", "test_large_data_set"], "classifications": [{"message_index": 0, "subclass_id": "A_NOT_NONE_EMPTY"}]}
+{"task_id": "BigCodeBench/1057", "error_type": "AssertionError", "tests": ["test_default_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1057", "error_type": "AssertionError", "tests": ["test_partial_default"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1077", "error_type": "ValueError", "tests": ["test_different_timezones", "test_varying_differences"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1054", "error_type": "ValueError", "tests": ["test_csv_with_non_numeric_data", "test_empty_csv_file"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/1053", "error_type": "AssertionError", "tests": ["test_save_plot"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1077", "error_type": "ValueError", "tests": ["test_out_of_order_strings"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1077", "error_type": "ValueError", "tests": ["test_example_case"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1077", "error_type": "ValueError", "tests": ["test_span_across_days"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1067", "error_type": "AssertionError", "tests": ["test_api_rate_limit_exceeded"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/1067", "error_type": "AssertionError", "tests": ["test_http_error"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1054", "error_type": "ValueError", "tests": ["test_small_population_size"], "classifications": [{"message_index": 0, "subclass_id": "UNKNOWN"}]}
+{"task_id": "BigCodeBench/1059", "error_type": "AssertionError", "tests": ["test_basic_structure"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1059", "error_type": "AssertionError", "tests": ["test_uniqueness"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1059", "error_type": "AssertionError", "tests": ["test_pair_existence"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1067", "error_type": "AssertionError", "tests": ["test_response_with_more_than_10000_issues"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1074", "error_type": "AssertionError", "tests": ["test_utc_to_est"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1074", "error_type": "AssertionError", "tests": ["test_ist_to_utc"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1074", "error_type": "AssertionError", "tests": ["test_est_to_utc"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1056", "error_type": "AssertionError", "tests": ["test_valid_pairs"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1074", "error_type": "AssertionError", "tests": ["test_utc_to_ist"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1074", "error_type": "AssertionError", "tests": ["test_utc_to_gmt"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1079", "error_type": "ValueError", "tests": ["test_basic_functionality"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1079", "error_type": "AssertionError", "tests": ["test_invalid_input"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/1071", "error_type": "AssertionError", "tests": ["test_y_values"], "classifications": [{"message_index": 0, "subclass_id": "A_RANGE_BOUND"}]}
+{"task_id": "BigCodeBench/1079", "error_type": "ValueError", "tests": ["test_all_zero_prices"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1079", "error_type": "ValueError", "tests": ["test_large_sample_size"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1079", "error_type": "ValueError", "tests": ["test_non_uniform_distribution"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1071", "error_type": "AssertionError", "tests": ["test_color_cycle"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1068", "error_type": "AssertionError", "tests": ["test_successful_query"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1065", "error_type": "AssertionError", "tests": ["test_plot_title"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1073", "error_type": "AssertionError", "tests": ["test_histogram_yaxis"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1073", "error_type": "AssertionError", "tests": ["test_histogram_title"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1069", "error_type": "AssertionError", "tests": ["test_multiple_categories", "test_non_uniform_distribution", "test_uniform_distribution"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1069", "error_type": "AssertionError", "tests": ["test_single_column"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1090", "error_type": "AssertionError", "tests": ["test_invalid_json_structure"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/1091", "error_type": "ValueError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1092", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1058", "error_type": "ValueError", "tests": ["test_valid_pairs"], "classifications": [{"message_index": 0, "subclass_id": "V_UNPACK"}]}
+{"task_id": "BigCodeBench/1092", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1088", "error_type": "AssertionError", "tests": ["test_default_dataset"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1064", "error_type": "AssertionError", "tests": ["test_scenario_1", "test_scenario_2", "test_scenario_3", "test_scenario_4", "test_scenario_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1096", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1094", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1095", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1095", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1095", "error_type": "AssertionError", "tests": ["test_save_dollar_prefixed_words_to_file"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1098", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1097", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1097", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1098", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1097", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1098", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1084", "error_type": "TypeError", "tests": ["test_empty_file"], "classifications": [{"message_index": 0, "subclass_id": "T_UNHASHABLE"}]}
+{"task_id": "BigCodeBench/1084", "error_type": "ValueError", "tests": ["test_numerical_and_non_numerical_columns"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1097", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1099", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1102", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1102", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1102", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1099", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1102", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1102", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1100", "error_type": "ValueError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "V_EMPTY_MINMAX"}]}
+{"task_id": "BigCodeBench/1108", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1108", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1111", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1111", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1113", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1111", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1113", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1108", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1113", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1114", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1114", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1112", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1114", "error_type": "AssertionError", "tests": ["test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1112", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1116", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1112", "error_type": "AssertionError", "tests": ["test_case_3"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/1116", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1120", "error_type": "AssertionError", "tests": ["test_repeated_urls"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1120", "error_type": "AssertionError", "tests": ["test_multiple_valid_urls"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1120", "error_type": "AssertionError", "tests": ["test_api_failure_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/584", "error_type": "ValueError", "tests": ["test_valid_signature"], "classifications": [{"message_index": 0, "subclass_id": "V_PARSE_CONVERT"}]}
+{"task_id": "BigCodeBench/1121", "error_type": "AssertionError", "tests": ["test_api_failure_handling"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/584", "error_type": "ValueError", "tests": ["test_return_type"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/584", "error_type": "ValueError", "tests": ["test_verification_error_handling"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/1121", "error_type": "AssertionError", "tests": ["test_multiple_valid_urls"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1123", "error_type": "AssertionError", "tests": ["test_basic_https_functionality"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1123", "error_type": "AssertionError", "tests": ["test_mixed_url_schemes"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1124", "error_type": "AssertionError", "tests": ["test_multiple_urls_in_string", "test_valid_url_with_title"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/584", "error_type": "ValueError", "tests": ["test_hashing_of_content"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/1123", "error_type": "AssertionError", "tests": ["test_https_with_ssl_errors"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1123", "error_type": "AssertionError", "tests": ["test_urls_with_ports_and_queries"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1124", "error_type": "AssertionError", "tests": ["test_url_with_no_title_tag"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1132", "error_type": "AssertionError", "tests": ["test_long_password"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1132", "error_type": "AssertionError", "tests": ["test_deterministic_output_with_fixed_salt"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1130", "error_type": "AssertionError", "tests": ["test_multiple_files"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1132", "error_type": "AssertionError", "tests": ["test_special_characters_in_password"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1130", "error_type": "AssertionError", "tests": ["test_nested_directories"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1125", "error_type": "AssertionError", "tests": ["test_case_3", "test_case_4"], "classifications": [{"message_index": 0, "subclass_id": "A_EXPECTED_EXCEPTION"}]}
+{"task_id": "BigCodeBench/1130", "error_type": "AssertionError", "tests": ["test_single_file"], "classifications": [{"message_index": 0, "subclass_id": "A_MEMBERSHIP"}]}
+{"task_id": "BigCodeBench/1135", "error_type": "TypeError", "tests": ["test_case_1", "test_case_2", "test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "T_NOT_ITERABLE"}]}
+{"task_id": "BigCodeBench/1125", "error_type": "AssertionError", "tests": ["test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_STRUCTURE_KEYS"}]}
+{"task_id": "BigCodeBench/1129", "error_type": "ValueError", "tests": ["test_download_with_incorrect_key"], "classifications": [{"message_index": 0, "subclass_id": "V_INVALID_OPTION"}]}
+{"task_id": "BigCodeBench/1139", "error_type": "TypeError", "tests": ["test_with_empty_data", "test_with_minimum_data", "test_with_specific_known_value", "test_with_typical_data", "test_with_varied_data_size"], "classifications": [{"message_index": 0, "subclass_id": "T_UNHASHABLE"}]}
+{"task_id": "BigCodeBench/1103", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1136", "error_type": "AssertionError", "tests": ["test_extraction_custom_regex"], "classifications": [{"message_index": 0, "subclass_id": "A_SEQ_LEN"}]}
+{"task_id": "BigCodeBench/102", "error_type": "AssertionError", "tests": ["test_dataframe_col_equal"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1101", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1104", "error_type": "AssertionError", "tests": ["test_case_2", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1103", "error_type": "AssertionError", "tests": ["test_case_3", "test_case_4", "test_case_5"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/1105", "error_type": "AssertionError", "tests": ["test_case_2"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
+{"task_id": "BigCodeBench/13", "error_type": "AssertionError", "tests": ["test_case_1"], "classifications": [{"message_index": 0, "subclass_id": "A_EQ_NEQ"}]}
